@@ -29,21 +29,17 @@ graph math_map {
 
     //третий уровень, теория чисел 
     arithmetic;
-    elementary_number_theory;
-    analytic_number_theory;
-    algebraic_number_theory;
+    number_theory;
 
     //третий уровень, алгебра
     order_theory;
     general_algebraic_systems;
-    field_theory;
-    commutative_rings; 
+    field_theory; 
 
     //третий уровень, комбинаторика
-    all_combinatorics;
+    combinatorics;
     partition_theory;
     graph_theory;
-    design_theory;
     finite_geometry;
     order_theory;
 
@@ -61,21 +57,326 @@ graph math_map {
 	complex_analysis;
 	functional_analysis;
 	differential_equations;
-	measure_theory;
-	numerical_analysis;
 
 
-     //третий уровень, тервер и матстат
-     probability_theory;
-     statistics;
+    //третий уровень, тервер и матстат
+    probability_theory;
+    statistics;
 
-     //третий уровень, вычисления
-     numerical_analysis;
-     computer_algebra;
+    //третий уровень, вычисления
+    numerical_analysis;
+    computer_algebra;
 
-     //третий уровень, физика
-     classical_mech;
-     particle_mech;
-     fluid_mech;
+    //третий уровень, физика
+    classical_mech;
+    particle_mech;
+    fluid_mech;
 
+
+    //четвертый уровень, теория доказательств 
+    structural_proof_theory;
+    ordinal_analysis;
+	provability_logic;
+	reverse_mathematics;
+	functional_interpretations;
+	formal_proof;
+
+    //четвертый уровень, теория модели
+    universal_algebra;
+    finite_model_theory;
+	first_order_logic;
+	categoricity;
+
+    //четвертый уровень, теория множеств
+    combinatorial_set_theory;
+    descriptive_set_theory;
+	fuzzy_set_theory;
+	large_cardinals;
+    determinacy;
+    forcing;
+
+    //четвертый уровень, арифметика
+    numbers;
+    operations;
+
+    //четвертый уровень, теория чисел
+    divisibility_theory;
+    prime_factorization;
+    approximation_theory;
+    Diophantine_equations;
+    number_classes;
+    entertaining_math;
+
+    //четвертый уровень, теория множеств
+    order_definitions;
+    order_functions;
+    subsets;
+    special_sets;
+
+    //четвертый уровень, системы
+    groups;
+    rings;
+    algebras;
+    lattice;
+
+    //четвертый уровень, теория полей
+    field_type;
+    field_characteristics;
+    field_extensions;
+
+    //четвертый уровень, комбинаторика 
+    unions;
+    pairs;
+    sequences;
+    trees;
+    set;
+    multiset;
+    cycle;
+
+    //четвертый уровень, разбиения
+    generating_function;
+    recurrence_relation;
+
+    //четвертый уровень, графы
+    graph_type;
+    graph_problems;
+
+
+    //четвертый уровень, конечная геометрия
+    affine_planes;
+    projective_planes;
+
+    //четвертый уровень, геометрия
+    general_convexity;
+    polyhedra;
+
+    //четвертый уровень, дискретная геометрия
+    polyhedra;
+    tilings;
+    geometric_graph_theory:
+
+    //четвертый уровень, дифференциальная геометрия
+    riemannian_geometry;
+    pseudo_riemannian_geometry;
+    other_geometry;
+    differential_topology;
+
+    //четвертый уровень, общая топология
+    continuous_functions;
+    compact_sets;
+    connected_sets;
+
+    //четвертый уровень, алгебраическая топология
+    homotopy_groups;
+    homology;
+    cohomology;
+    manifolds;
+    knot_theory;
+    complexes;
+
+    //четвертый уровень, р анализ
+    real_numbers;
+    limits;
+    differentiation;
+    series;
+    integration;
+
+    //четвертый уровень, к анализ
+    complex_numbers;
+    fractals;
+
+    //четвертый уровень, функциональный анализ 
+    soft_analysis;
+    theory_of_images;
+    quantum_functional_analysis;
+    nonlinear_functional_analysis;
+
+
+    //четвертый уровень, дифференциальные уравнения
+    ordinary_de;
+    first_order_de;
+    partial_de;
+    linear_de;
+    nonlinear_de;
+
+
+    //четвертый уровень, тервер
+    discrete_probability_distributions;
+    continuous_probability_distributions;
+
+    //четвертый уровень, матстат
+    descriptive_statistics;
+    inferential_statistics;
+
+    //построение графа
+    math --  pure_math;
+    math -- applied_math;
+
+    pure_math -- foundations;
+    pure_math -- number_theory;
+    pure_math -- algebra;
+    pure_math -- combinatorics;
+    pure_math -- geometry;
+    pure_math -- topology;
+    pure_math -- math_analysis;
+
+
+    applied_math -- probability_and_statistics;
+    applied_math -- computational_sciences;
+    applied_math -- mathematical_physics;
+    applied_math -- mathematical_optimization;
+
+    foundations -- proof_theory;
+    foundations -- model_theory;
+    foundations -- set_theory;
+
+    number_theory -- arithmetic;
+    number_theory -- elementary_number_theory;
+    number_theory -- analytic_number_theory;
+    number_theory -- algebraic_number_theory;
+
+    algebra -- order_theory;
+    algebra -- general_algebraic_systems;
+    algebra -- field_theory;
+
+    combinatorics -- all_combinatorics;
+    combinatorics -- partition_theory;
+    combinatorics -- graph_theory;
+    combinatorics -- design_theory;
+    combinatorics -- finite_geometry;
+    combinatorics -- order_theory;
+
+    geometry -- сonvex_geometry;
+    geometry -- discrete_geometry;
+    geometry -- differential_geometry;
+
+    topology -- general_topology;
+    topology -- algebraic_topology;
+
+    math_analysis -- real_analysis;
+	math_analysis -- complex_analysis;
+	math_analysis -- functional_analysis;
+	math_analysis -- differential_equations;
+	math_analysis -- measure_theory;
+	math_analysis -- numerical_analysis;
+    
+
+    probability_and_statistics -- probability_theory;
+    probability_and_statistics -- statistics;
+
+    computational_sciences -- numerical_analysis;
+    computational_sciences -- computer_algebra;
+
+    mathematical_physics -- classical_mech;
+    mathematical_physics -- particle_mech;
+    mathematical_physics -- fluid_mech;
+
+    proof_theory -- structural_proof_theory;
+    proof_theory -- ordinal_analysis;
+	proof_theory -- provability_logic;
+	proof_theory -- reverse_mathematics;
+	proof_theory -- functional_interpretations;
+	proof_theory -- formal_proof;
+
+    model_theory -- universal_algebra;
+    model_theory -- finite_model_theory;
+	model_theory -- first_order_logic;
+	model_theory -- categoricity;
+
+    set_theory -- combinatorial_set_theory;
+    set_theory -- descriptive_set_theory;
+	set_theory -- fuzzy_set_theory;
+	set_theory -- large_cardinals;
+    set_theory -- determinacy;
+    set_theory -- forcing;
+
+    arithmetic -- numbers;
+    arithmetic -- operations;
+
+    number_theory -- divisibility_theory;
+    number_theory -- prime_factorization;
+    number_theory -- approximation_theory;
+    number_theory -- Diophantine_equations;
+    number_theory -- number_classes;
+    number_theory -- entertaining_math;
+
+    order_theory -- order_definitions;
+    order_theory -- order_functions;
+    order_theory -- subsets;
+    order_theory -- special_sets;
+
+    general_algebraic_systems -- groups;
+    general_algebraic_systems -- rings;
+    general_algebraic_systems -- algebras;
+    general_algebraic_systems -- lattice;
+
+    field_theory -- field_type;
+    field_theory -- field_characteristics;
+    field_theory -- field_extensions;
+
+    combinatorics -- unions;
+    combinatorics -- pairs;
+    combinatorics -- sequences;
+    combinatorics -- trees;
+    combinatorics -- set;
+    combinatorics -- multiset;
+    combinatorics -- cycle;
+
+    partition_theory -- generating_function;
+    partition_theory -- recurrence_relation;
+
+    graph_theory -- graph_type;
+    graph_theory -- graph_problems;
+
+    finite_geometry -- affine_planes;
+    finite_geometry -- projective_planes;
+
+    сonvex_geometry -- general_convexity;
+    сonvex_geometry -- polyhedra;
+
+    discrete_geometry -- polyhedra;
+    discrete_geometry -- tilings;
+    discrete_geometry -- geometric_graph_theory:
+
+    differential_geometry -- riemannian_geometry;
+    differential_geometry -- pseudo_riemannian_geometry;
+    differential_geometry -- other_geometry;
+    differential_geometry -- differential_topology;
+
+    general_topology -- continuous_functions;
+    general_topology -- compact_sets;
+    general_topology -- connected_sets;
+
+    algebraic_topology -- homotopy_groups;
+    algebraic_topology -- homology;
+    algebraic_topology -- cohomology;
+    algebraic_topology -- manifolds;
+    algebraic_topology -- knot_theory;
+    algebraic_topology -- complexes;
+
+    real_analysis -- real_numbers;
+    real_analysis -- limits;
+    real_analysis -- differentiation;
+    real_analysis -- series;
+    real_analysis -- integration;
+
+    complex_analysis -- complex_numbers;
+    complex_analysis -- fractals;
+
+    functional_analysis -- soft_analysis;
+    functional_analysis -- theory_of_images;
+    functional_analysis -- quantum_functional_analysis;
+    functional_analysis -- nonlinear_functional_analysis;
+
+    differential_equations -- ordinary_de;
+    differential_equations -- first_order_de;
+    differential_equations -- partial_de;
+    differential_equations -- linear_de;
+    differential_equations -- nonlinear_de;
+
+    probability_theory -- discrete_probability_distributions;
+    probability_theory -- continuous_probability_distributions;
+
+    statistics -- descriptive_statistics;
+    statistics -- inferential_statistics;
 }
