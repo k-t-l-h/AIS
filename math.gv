@@ -1,0 +1,81 @@
+graph math_map {
+    //node [shape=circle];
+    //нулевой уровень
+    math [label="math"];
+
+    //первый уровень
+    pure_math;
+    applied_math;
+
+    //второй уровень, чистая математика
+    foundations;
+    number_theory;
+    algebra;
+    combinatorics;
+    geometry;
+    topology;
+    math_analysis;
+
+    //второй уровень, прикладная математика
+    probability_and_statistics;
+    computational_sciences;
+    mathematical_physics;
+    mathematical_optimization;
+    
+    //третий уровень, основы
+    proof_theory;
+    model_theory;
+    set_theory;
+
+    //третий уровень, теория чисел 
+    arithmetic;
+    elementary_number_theory;
+    analytic_number_theory;
+    algebraic_number_theory;
+
+    //третий уровень, алгебра
+    order_theory;
+    general_algebraic_systems;
+    field_theory;
+    commutative_rings; 
+
+    //третий уровень, комбинаторика
+    all_combinatorics;
+    partition_theory;
+    graph_theory;
+    design_theory;
+    finite_geometry;
+    order_theory;
+
+    //третий уровень, геометрия
+    сonvex_geometry;
+    discrete_geometry;
+    differential_geometry;
+
+    //третий уровень,топология
+    general_topology;
+    algebraic_topology;
+
+    //третий уровень, матан 
+    real_analysis;
+	complex_analysis;
+	functional_analysis;
+	differential_equations;
+	measure_theory;
+	numerical_analysis;
+
+
+     //третий уровень, тервер и матстат
+     probability_theory;
+     statistics;
+
+     //третий уровень, вычисления
+     numerical_analysis;
+     computer_algebra;
+
+     //третий уровень, физика
+     classical_mech;
+     particle_mech;
+     fluid_mech;
+
+}
