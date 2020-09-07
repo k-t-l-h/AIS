@@ -76,7 +76,6 @@ graph math_map {
     //четвертый уровень, теория доказательств 
     structural_proof_theory;
     ordinal_analysis;
-	provability_logic;
 	reverse_mathematics;
 	functional_interpretations;
 	formal_proof;
@@ -207,6 +206,193 @@ graph math_map {
     //четвертый уровень, матстат
     descriptive_statistics;
     inferential_statistics;
+
+    //пятый уровень, структурная теория
+    first_order_logic;
+
+    //пятый уровень, ординалы
+    cardinal;
+
+    //пятый уровень, реверс математика 
+    second_order_logic;
+    higher_order_logic;
+
+    //пятый уровень, формальные доказательств
+    formal_language;
+    formal_grammar;
+
+    //пятый уровень, числа (и классы чисел)
+    natural_numbers;
+    integer_numbers;
+    rational_numbers;
+    real_numbers;
+    complex_numbers;
+    prime_numbers;
+
+    //пятый уровень, операции
+    unary;
+    binary;
+
+    //пятый уровень, делимость 
+    factor;
+    multiple;
+
+    //пятый уровень, факторизация
+    Fermat_factorization_method;
+    Euler_factorization_method;
+
+    //пятый уровень, теория апроксимации
+    optimal_polynomials;
+    Chebyshev_approximation;
+
+    //пятый уровень, занимательная математика
+    magic_squares;
+    fractals;
+    Rubik_cubes;
+    cellular_automata;
+
+    //пятый уровень, графы 
+    undirected_graph -- tree;
+    directed_graph;
+    regular_graph;
+    weighted_graph;
+    complete_graph;
+    finite_graph;
+    connected_graph;
+    disconnected_graph;
+    planar_graph;
+    vertices;
+    edges;
+    multigraph;
+
+    //пятый уровень, проблемы графов
+    graphical_enumeration;
+    subgraph_isomorphism_problem;
+    graph_coloring -- four_color_theorem;
+    route_problems;
+
+
+    //пятый уровень, многоугольники
+    platonic_solid;
+    kepler_poinsot_solid;
+    archimedean_solid;
+    catalan_solid;
+
+    //шестой уровень, платонические фигуры
+    tetrahedron;
+    cube;	
+    octahedron;	
+    dodecahedron;	
+    icosahedron;
+
+    //шестой уровень, кеплер 
+    great_dodecahedron;
+    small_stellated_dodecahedron;
+    great_icosahedron;
+    great_stellated_dodecahedron;
+
+    //шестой уровень, арихмед
+    truncated_tetrahedron;
+    cuboctahedron;
+    truncated_cube;
+    truncated_octahedron;
+    rhombicuboctahedron;
+    truncated_cuboctahedron;
+    snub_cube;
+    icosidodecahedron;
+    truncated_dodecahedron;
+    truncated_icosahedron;
+    rhombicosidodecahedron;
+    truncated_icosidodecahedron;
+    snub_dodecahedron;
+
+    //пятый уровень, плитка
+    edges;
+    vertices;
+    
+    //пятый уровень, функции
+    limits;
+
+    //пятый уровень, типы гомологий
+    simplicial_homology;
+    singular_homology;
+    group_homology;
+
+    //пятый уровень, манифолды
+    affine_manifold;
+    analytic_manifold;
+    complex_manifold;
+    differentiable_manifolds;
+    smooth_manifold;
+    topological_manifold;
+
+    //шестой уровень, проблемы роутинга
+    Hamiltonian_path_problem;
+    minimum_spanning_tree;
+    seven_bridges_of_Königsberg;
+    shortest_path_problem;
+    traveling_salesman_problem;
+
+    //пятый уровень, фракталы
+    geometric_fractals;
+    algebraic_fractals;
+
+    //пятый уровень, дискретные распределения
+    discrete_uniform_distribution;
+    binomial_distribution;
+    Bernoulli_distribution;
+    Poisson_distribution;
+    geometric_distribution;
+
+    //пятый уровень, непрерывные распределения
+    normal_distribution;
+    continuous_uniform_distribution;
+    gamma_distribution;
+    exponential_distribution;
+    Cauchy_distribution;
+    geometric_distribution;
+
+    //шестой уровень, гео фракталы
+    Koch_snowflake;
+    T_square;
+    Sierpinski_triangle;
+    Pythagoras_tree;
+
+    //шестой уровень, алгебра фракталы
+    Mandelbrot_set;
+
+    //шестой уровень, унарные операции
+    unary_positive;
+    unary_negative;
+    negation;
+    factorial;
+    root;
+    trigonometric_functions;
+
+    //шестой уровень, бинарные операции
+    addition;
+    substrution;
+    multiplication;
+
+    //шестой уровень, формальные языки
+    union;
+    intersection;
+    complement;
+    concatenation;
+    Kleene_star;
+
+    //шестой уровень, предикаты
+    logical_symbols;
+    non_logical_symbols;
+
+    //седьмой уровень, логические предикаты
+    quantifier;
+    logical_connectives;
+
+    //седьмой уровень, нелогические предикаты
+    predicates;
+    functions;
+    constants;
 
     //построение графа
     math --  pure_math;
@@ -379,4 +565,166 @@ graph math_map {
 
     statistics -- descriptive_statistics;
     statistics -- inferential_statistics;
+
+    structural_proof_theory -- first_order_logic;
+
+    ordinal_analysis -- cardinal;
+
+    reverse_mathematics -- second_order_logic;
+    reverse_mathematics -- higher_order_logic;
+
+    formal_proof -- formal_language;
+    formal_proof -- formal_grammar;
+
+    number_classes -- natural_numbers;
+    number_classes -- integer_numbers;
+    number_classes -- rational_numbers;
+    number_classes -- real_numbers;
+    number_classes -- complex_numbers;
+    number_classes -- prime_numbers;
+
+    numbers -- natural_numbers;
+    numbers -- integer_numbers;
+    numbers -- rational_numbers;
+    numbers -- real_numbers;
+    numbers -- complex_numbers;
+    numbers -- prime_numbers;
+
+    operations -- unary;
+    operations -- binary;
+
+    divisibility_theory -- factor;
+    divisibility_theory -- multiple;
+
+    prime_factorization -- Fermat_factorization_method;
+    prime_factorization -- Euler_factorization_method;
+
+    approximation_theory -- optimal_polynomials;
+    approximation_theory -- Chebyshev_approximation;
+
+    entertaining_math -- magic_squares;
+    entertaining_math -- fractals;
+    entertaining_math -- Rubik_cubes;
+    entertaining_math -- cellular_automata;
+
+    graph_type --  undirected_graph -- trees;
+    graph_type --  directed_graph;
+    graph_type -- regular_graph;
+    graph_type -- weighted_graph;
+    graph_type -- complete_graph;
+    graph_type -- finite_graph;
+    graph_type -- connected_graph;
+    graph_type -- disconnected_graph;
+    graph_type -- planar_graph;
+    graph_type -- vertices;
+    graph_type -- edges;
+    graph_type -- multigraph;
+
+    graph_problems -- graphical_enumeration;
+    graph_problems -- subgraph_isomorphism_problem;
+    graph_problems -- graph_coloring -- four_color_theorem;
+    graph_problems -- route_problems;
+
+
+    polyhedra -- platonic_solid;
+    polyhedra -- kepler_poinsot_solid;
+    polyhedra -- archimedean_solid;
+    polyhedra -- catalan_solid;
+
+    platonic_solid -- tetrahedron;
+    platonic_solid -- cube;	
+    platonic_solid -- octahedron;	
+    platonic_solid -- dodecahedron;	
+    platonic_solid -- icosahedron;
+
+    kepler_poinsot_solid -- great_dodecahedron;
+    kepler_poinsot_solid -- small_stellated_dodecahedron;
+    kepler_poinsot_solid -- great_icosahedron;
+    kepler_poinsot_solid -- great_stellated_dodecahedron;
+
+    archimedean_solid -- truncated_tetrahedron;
+    archimedean_solid -- cuboctahedron;
+    archimedean_solid -- truncated_cube;
+    archimedean_solid -- truncated_octahedron;
+    archimedean_solid -- rhombicuboctahedron;
+    archimedean_solid -- truncated_cuboctahedron;
+    archimedean_solid -- snub_cube;
+    archimedean_solid -- icosidodecahedron;
+    archimedean_solid -- truncated_dodecahedron;
+    archimedean_solid -- truncated_icosahedron;
+    archimedean_solid -- rhombicosidodecahedron;
+    archimedean_solid -- truncated_icosidodecahedron;
+    archimedean_solid -- snub_dodecahedron;
+
+    tilings -- edges;
+    tilings -- vertices;
+    
+    continuous_functions -- limits;
+
+    homology -- simplicial_homology;
+    homology -- singular_homology;
+    homology -- group_homology;
+
+    manifolds -- affine_manifold;
+    manifolds -- analytic_manifold;
+    manifolds -- complex_manifold;
+    manifolds -- differentiable_manifolds;
+    manifolds -- smooth_manifold;
+    manifolds -- topological_manifold;
+
+    route_problems -- Hamiltonian_path_problem;
+    route_problems -- minimum_spanning_tree;
+    route_problems -- seven_bridges_of_Königsberg;
+    route_problems -- shortest_path_problem;
+    route_problems -- traveling_salesman_problem;
+
+    fractals -- geometric_fractals;
+    fractals -- algebraic_fractals;
+
+    discrete_probability_distributions -- discrete_uniform_distribution;
+    discrete_probability_distributions -- binomial_distribution;
+    discrete_probability_distributions -- Bernoulli_distribution;
+    discrete_probability_distributions -- Poisson_distribution;
+    discrete_probability_distributions -- geometric_distribution;
+
+    continuous_probability_distributions -- normal_distribution;
+    continuous_probability_distributions -- continuous_uniform_distribution;
+    continuous_probability_distributions -- gamma_distribution;
+    continuous_probability_distributions -- exponential_distribution;
+    continuous_probability_distributions -- Cauchy_distribution;
+    continuous_probability_distributions -- geometric_distribution;
+
+    geometric_fractals -- Koch_snowflake;
+    geometric_fractals -- T_square;
+    geometric_fractals -- Sierpinski_triangle;
+    geometric_fractals -- Pythagoras_tree;
+
+    algebraic_fractals -- Mandelbrot_set;
+
+    unary -- unary_positive;
+    unary -- unary_negative;
+    unary -- negation;
+    unary -- factorial;
+    unary -- root;
+    unary -- trigonometric_functions;
+
+    binary -- addition;
+    binary -- substrution;
+    binary -- multiplication;
+
+    formal_language -- union;
+    formal_language -- intersection;
+    formal_language -- complement;
+    formal_language -- concatenation;
+    formal_language -- Kleene_star;
+
+    formal_grammar -- logical_symbols;
+    formal_grammar -- non_logical_symbols;
+
+    logical_symbols -- quantifier;
+    logical_symbols -- logical_connectives;
+
+    non_logical_symbols -- predicates;
+    non_logical_symbols -- functions;
+    non_logical_symbols -- constants;
 }
