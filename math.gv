@@ -430,7 +430,7 @@ graph math_map {
     combinatorics -- graph_theory;
     combinatorics -- design_theory;
     combinatorics -- finite_geometry;
-    combinatorics -- order_theory;
+    //combinatorics -- order_theory;
 
     geometry -- сonvex_geometry;
     geometry -- discrete_geometry;
@@ -450,7 +450,7 @@ graph math_map {
     probability_and_statistics -- probability_theory;
     probability_and_statistics -- statistics;
 
-    computational_sciences -- numerical_analysis;
+    //computational_sciences -- numerical_analysis;
     computational_sciences -- computer_algebra;
 
     mathematical_physics -- classical_mech;
@@ -518,7 +518,7 @@ graph math_map {
     finite_geometry -- projective_planes;
 
     сonvex_geometry -- general_convexity;
-    сonvex_geometry -- polyhedra;
+    //сonvex_geometry -- polyhedra;
 
     discrete_geometry -- polyhedra;
     discrete_geometry -- tilings;
@@ -540,13 +540,13 @@ graph math_map {
     algebraic_topology -- knot_theory;
     algebraic_topology -- complexes;
 
-    real_analysis -- real_numbers;
+    //real_analysis -- real_numbers;
     real_analysis -- limits;
     real_analysis -- differentiation;
     real_analysis -- series;
     real_analysis -- integration;
 
-    complex_analysis -- complex_numbers;
+    //complex_analysis -- complex_numbers;
     complex_analysis -- fractals;
 
     functional_analysis -- soft_analysis;
@@ -566,7 +566,7 @@ graph math_map {
     statistics -- descriptive_statistics;
     statistics -- inferential_statistics;
 
-    structural_proof_theory -- first_order_logic;
+    //structural_proof_theory -- first_order_logic;
 
     ordinal_analysis -- cardinal;
 
@@ -583,12 +583,12 @@ graph math_map {
     number_classes -- complex_numbers;
     number_classes -- prime_numbers;
 
-    numbers -- natural_numbers;
-    numbers -- integer_numbers;
-    numbers -- rational_numbers;
-    numbers -- real_numbers;
-    numbers -- complex_numbers;
-    numbers -- prime_numbers;
+    //numbers -- natural_numbers;
+    //numbers -- integer_numbers;
+    //numbers -- rational_numbers;
+    //numbers -- real_numbers;
+    //numbers -- complex_numbers;
+    //numbers -- prime_numbers;
 
     operations -- unary;
     operations -- binary;
@@ -603,11 +603,11 @@ graph math_map {
     approximation_theory -- Chebyshev_approximation;
 
     entertaining_math -- magic_squares;
-    entertaining_math -- fractals;
+    //entertaining_math -- fractals;
     entertaining_math -- Rubik_cubes;
     entertaining_math -- cellular_automata;
 
-    graph_type --  undirected_graph -- trees;
+    graph_type --  undirected_graph; // -- trees;
     graph_type --  directed_graph;
     graph_type -- regular_graph;
     graph_type -- weighted_graph;
@@ -656,10 +656,10 @@ graph math_map {
     archimedean_solid -- truncated_icosidodecahedron;
     archimedean_solid -- snub_dodecahedron;
 
-    tilings -- edges;
-    tilings -- vertices;
+    //tilings -- edges;
+    //tilings -- vertices;
     
-    continuous_functions -- limits;
+    //continuous_functions -- limits;
 
     homology -- simplicial_homology;
     homology -- singular_homology;
@@ -692,7 +692,6 @@ graph math_map {
     continuous_probability_distributions -- gamma_distribution;
     continuous_probability_distributions -- exponential_distribution;
     continuous_probability_distributions -- Cauchy_distribution;
-    continuous_probability_distributions -- geometric_distribution;
 
     geometric_fractals -- Koch_snowflake;
     geometric_fractals -- T_square;
