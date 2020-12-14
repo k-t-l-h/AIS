@@ -1,26 +1,37 @@
 package main
 
-import "AIS/internal/doi"
+import (
+	"AIS/internal/metrix"
+	"AIS/internal/models"
+	"log"
+)
 
 func main() {
-
-	doi.GetHrefs()
-	/*
-	r := mux.NewRouter()
-
-	r.HandleFunc("/", func(writer http.ResponseWriter, request *http.Request) {
-
-	})
-
-	srv := &http.Server{
-		Handler:      r,
-		Addr:         ":5000",
-		WriteTimeout: 15 * time.Second,
-		ReadTimeout:  15 * time.Second,
+	a := models.Article{
+		Title:       "A",
+		Authors:     []string{"math"},
+		Fields:       []string{"pure_math", "applied_math"},
+		RINZ:        true,
+		WAK:         false,
+		WOS:         false,
+		Year:        1999,
+		Citations:   0,
+		Score:       5,
+		ReadingTime: 10,
 	}
 
-	log.Print("Server running at ", srv.Addr)
-	log.Fatal(srv.ListenAndServe())
+	b := models.Article{
+		Title:       "A",
+		Authors:     []string{"A", "B"},
+		Fields:       []string{"applied_math"},
+		RINZ:        true,
+		WAK:         false,
+		WOS:         false,
+		Year:        1999,
+		Citations:   0,
+		Score:       5,
+		ReadingTime: 10,
+	}
 
-	 */
+	log.Print(metrix.CorrelationDistance(a, b))
 }
