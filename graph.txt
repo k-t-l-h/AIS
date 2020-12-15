@@ -1,0 +1,497 @@
+graph 1 84.167 85.486
+node math 35.868 37.744 0.84299 0.5 math solid ellipse black lightgrey
+node pure_math 37.676 45.347 1.4537 0.5 pure_math solid ellipse black lightgrey
+node applied_math 34.054 29.919 1.7667 0.5 applied_math solid ellipse black lightgrey
+node foundations 35.296 54.803 1.5731 0.5 foundations solid ellipse black lightgrey
+node number_theory 44.638 52.318 1.9454 0.5 number_theory solid ellipse black lightgrey
+node algebra 41.875 41.802 1.0959 0.5 algebra solid ellipse black lightgrey
+node combinatorics 27.911 41.454 1.8262 0.5 combinatorics solid ellipse black lightgrey
+node geometry 47.728 43.674 1.3196 0.5 geometry solid ellipse black lightgrey
+node topology 38.885 38.164 1.2604 0.5 topology solid ellipse black lightgrey
+node math_analysis 29.829 49.317 1.8412 0.5 math_analysis solid ellipse black lightgrey
+node probability_and_statistics 33.127 21.333 3.0632 0.5 probability_and_statistics solid ellipse black lightgrey
+node computational_sciences 30.736 26.746 2.869 0.5 computational_sciences solid ellipse black lightgrey
+node mathematical_physics 32.062 24.787 2.6904 0.5 mathematical_physics solid ellipse black lightgrey
+node mathematical_optimization 33.03 26.135 3.2418 0.5 mathematical_optimization solid ellipse black lightgrey
+node proof_theory 32.235 63.227 1.707 0.5 proof_theory solid ellipse black lightgrey
+node model_theory 36.005 58.775 1.7965 0.5 model_theory solid ellipse black lightgrey
+node set_theory 35.526 59.9 1.4239 0.5 set_theory solid ellipse black lightgrey
+node arithmetic 49.258 58.264 1.3941 0.5 arithmetic solid ellipse black lightgrey
+node order_theory 43.555 38.345 1.6919 0.5 order_theory solid ellipse black lightgrey
+node general_algebraic_systems 46.281 38.333 3.1965 0.5 general_algebraic_systems solid ellipse black lightgrey
+node field_theory 45.239 41.211 1.6176 0.5 field_theory solid ellipse black lightgrey
+node partition_theory 24.592 37.96 2.0349 0.5 partition_theory solid ellipse black lightgrey
+node graph_theory 18.594 38.72 1.7367 0.5 graph_theory solid ellipse black lightgrey
+node finite_geometry 24.58 38.712 2.0199 0.5 finite_geometry solid ellipse black lightgrey
+node сonvex_geometry 51.262 42.161 2.2434 0.5 сonvex_geometry solid ellipse black lightgrey
+node discrete_geometry 57.941 41.856 2.2878 0.5 discrete_geometry solid ellipse black lightgrey
+node differential_geometry 52.484 43.732 2.6453 0.5 differential_geometry solid ellipse black lightgrey
+node general_topology 40.079 34.396 2.1839 0.5 general_topology solid ellipse black lightgrey
+node algebraic_topology 40.085 30.63 2.3775 0.5 algebraic_topology solid ellipse black lightgrey
+node real_analysis 25.051 49.131 1.7068 0.5 real_analysis solid ellipse black lightgrey
+node complex_analysis 23.034 51.765 2.2286 0.5 complex_analysis solid ellipse black lightgrey
+node functional_analysis 25.389 52.376 2.3924 0.5 functional_analysis solid ellipse black lightgrey
+node differential_equations 26.501 54.153 2.6603 0.5 differential_equations solid ellipse black lightgrey
+node probability_theory 32.88 13.163 2.3032 0.5 probability_theory solid ellipse black lightgrey
+node statistics 31.236 16.63 1.2304 0.5 statistics solid ellipse black lightgrey
+node numerical_analysis 29.128 52.333 2.3774 0.5 numerical_analysis solid ellipse black lightgrey
+node computer_algebra 27.741 23.609 2.2431 0.5 computer_algebra solid ellipse black lightgrey
+node classical_mech 32.323 20.62 1.9302 0.5 classical_mech solid ellipse black lightgrey
+node particle_mech 30.334 21.093 1.8259 0.5 particle_mech solid ellipse black lightgrey
+node fluid_mech 29.558 21.855 1.5283 0.5 fluid_mech solid ellipse black lightgrey
+node structural_proof_theory 29.395 65.959 2.854 0.5 structural_proof_theory solid ellipse black lightgrey
+node ordinal_analysis 31.543 67.559 2.0647 0.5 ordinal_analysis solid ellipse black lightgrey
+node reverse_mathematics 29.106 67.294 2.5707 0.5 reverse_mathematics solid ellipse black lightgrey
+node functional_interpretations 34.14 66.948 3.0777 0.5 functional_interpretations solid ellipse black lightgrey
+node formal_proof 29.784 70.464 1.7367 0.5 formal_proof solid ellipse black lightgrey
+node universal_algebra 33.74 61.014 2.2133 0.5 universal_algebra solid ellipse black lightgrey
+node finite_model_theory 37.858 62.221 2.4968 0.5 finite_model_theory solid ellipse black lightgrey
+node first_order_logic 37.633 61.463 2.1092 0.5 first_order_logic solid ellipse black lightgrey
+node categoricity 35.68 61.637 1.5727 0.5 categoricity solid ellipse black lightgrey
+node combinatorial_set_theory 40.322 60.91 3.0479 0.5 combinatorial_set_theory solid ellipse black lightgrey
+node descriptive_set_theory 31.152 61.229 2.7349 0.5 descriptive_set_theory solid ellipse black lightgrey
+node fuzzy_set_theory 35.046 63.533 2.1538 0.5 fuzzy_set_theory solid ellipse black lightgrey
+node large_cardinals 37.206 63.067 1.945 0.5 large_cardinals solid ellipse black lightgrey
+node determinacy 34.101 62.661 1.6323 0.5 determinacy solid ellipse black lightgrey
+node forcing 35.581 62.708 1.0812 0.5 forcing solid ellipse black lightgrey
+node numbers 50.7 61.006 1.2303 0.5 numbers solid ellipse black lightgrey
+node operations 53.657 63.42 1.4239 0.5 operations solid ellipse black lightgrey
+node divisibility_theory 43.713 57.076 2.2886 0.5 divisibility_theory solid ellipse black lightgrey
+node prime_factorization 46.176 56.615 2.4219 0.5 prime_factorization solid ellipse black lightgrey
+node approximation_theory 49.619 51.954 2.6905 0.5 approximation_theory solid ellipse black lightgrey
+node Diophantine_equations 46.778 54.982 2.7948 0.5 Diophantine_equations solid ellipse black lightgrey
+node number_classes 49.507 55.546 2.0049 0.5 number_classes solid ellipse black lightgrey
+node entertaining_math 49.635 53.759 2.2583 0.5 entertaining_math solid ellipse black lightgrey
+node order_definitions 46.377 36.453 2.154 0.5 order_definitions solid ellipse black lightgrey
+node order_functions 44.57 35.068 2.0049 0.5 order_functions solid ellipse black lightgrey
+node subsets 43.275 35.848 1.0814 0.5 subsets solid ellipse black lightgrey
+node special_sets 44.986 35.842 1.5877 0.5 special_sets solid ellipse black lightgrey
+node groups 49.938 37.202 1.0367 0.5 groups solid ellipse black lightgrey
+node rings 48.074 35 0.84299 0.5 rings solid ellipse black lightgrey
+node algebras 49.766 36.224 1.2002 0.5 algebras solid ellipse black lightgrey
+node lattice 49.021 35.61 0.96198 0.5 lattice solid ellipse black lightgrey
+node field_type 48.001 41.356 1.3942 0.5 field_type solid ellipse black lightgrey
+node field_characteristics 48.771 39.996 2.4663 0.5 field_characteristics solid ellipse black lightgrey
+node field_extensions 46.395 40.601 2.0647 0.5 field_extensions solid ellipse black lightgrey
+node unions 26.037 43.279 1.0219 0.5 unions solid ellipse black lightgrey
+node pairs 27.412 39.327 0.82794 0.5 pairs solid ellipse black lightgrey
+node sequences 29.387 39.123 1.3939 0.5 sequences solid ellipse black lightgrey
+node trees 25.862 40.136 0.81289 0.5 trees solid ellipse black lightgrey
+node set 25.814 42.197 0.75 0.5 set solid ellipse black lightgrey
+node multiset 26.299 38.922 1.1709 0.5 multiset solid ellipse black lightgrey
+node cycle 28.143 38.715 0.87247 0.5 cycle solid ellipse black lightgrey
+node generating_function 21.91 34.819 2.4668 0.5 generating_function solid ellipse black lightgrey
+node recurrence_relation 21.367 35.671 2.3916 0.5 recurrence_relation solid ellipse black lightgrey
+node graph_type 11.246 38.341 1.5133 0.5 graph_type solid ellipse black lightgrey
+node graph_problems 12.229 34.83 2.0497 0.5 graph_problems solid ellipse black lightgrey
+node affine_planes 24.132 35.408 1.7514 0.5 affine_planes solid ellipse black lightgrey
+node projective_planes 21.124 37.266 2.1985 0.5 projective_planes solid ellipse black lightgrey
+node general_convexity 54.651 40.169 2.2879 0.5 general_convexity solid ellipse black lightgrey
+node polyhedra 67.703 40.189 1.3792 0.5 polyhedra solid ellipse black lightgrey
+node tilings 60.905 40.561 0.97732 0.5 tilings solid ellipse black lightgrey
+node geometric_graph_theory 62.732 41.816 2.9434 0.5 geometric_graph_theory solid ellipse black lightgrey
+node pseudo_riemannian_geometry 57.437 43.846 3.5544 0.5 pseudo_riemannian_geometry solid ellipse black lightgrey
+node other_geometry 56.27 44.514 2.0049 0.5 other_geometry solid ellipse black lightgrey
+node differential_topology 56.165 42.468 2.5861 0.5 differential_topology solid ellipse black lightgrey
+node continuous_functions 43.209 31.866 2.6162 0.5 continuous_functions solid ellipse black lightgrey
+node compact_sets 38.539 31.592 1.7517 0.5 compact_sets solid ellipse black lightgrey
+node connected_sets 41.331 31.254 1.9303 0.5 connected_sets solid ellipse black lightgrey
+node homotopy_groups 43.105 27.947 2.2588 0.5 homotopy_groups solid ellipse black lightgrey
+node homology 40.446 25.817 1.3945 0.5 homology solid ellipse black lightgrey
+node cohomology 38.204 27.722 1.6477 0.5 cohomology solid ellipse black lightgrey
+node manifolds 41.198 24.527 1.3794 0.5 manifolds solid ellipse black lightgrey
+node knot_theory 41.503 27.336 1.6029 0.5 knot_theory solid ellipse black lightgrey
+node complexes 39.865 27.306 1.4537 0.5 complexes solid ellipse black lightgrey
+node real_numbers 51.4 58.73 1.7664 0.5 real_numbers solid ellipse black lightgrey
+node limits 22.539 50.098 0.91775 0.5 limits solid ellipse black lightgrey
+node differentiation 21.576 48.527 1.8409 0.5 differentiation solid ellipse black lightgrey
+node series 22.702 47.915 0.91721 0.5 series solid ellipse black lightgrey
+node integration 21.802 49.487 1.4687 0.5 integration solid ellipse black lightgrey
+node complex_numbers 53.404 56.89 2.2882 0.5 complex_numbers solid ellipse black lightgrey
+node fractals 17.259 54.387 1.0958 0.5 fractals solid ellipse black lightgrey
+node soft_analysis 22.347 54.747 1.7071 0.5 soft_analysis solid ellipse black lightgrey
+node theory_of_images 22.851 54.134 2.2434 0.5 theory_of_images solid ellipse black lightgrey
+node quantum_functional_analysis 19.855 54.136 3.4653 0.5 quantum_functional_analysis solid ellipse black lightgrey
+node nonlinear_functional_analysis 20.746 53.523 3.5396 0.5 nonlinear_functional_analysis solid ellipse black lightgrey
+node ordinary_de 24.341 57.603 1.6026 0.5 ordinary_de solid ellipse black lightgrey
+node first_order_de 23.096 56.376 1.826 0.5 first_order_de solid ellipse black lightgrey
+node partial_de 25.669 56.991 1.3791 0.5 partial_de solid ellipse black lightgrey
+node linear_de 25.91 57.775 1.3046 0.5 linear_de solid ellipse black lightgrey
+node nonlinear_de 23.724 56.991 1.7069 0.5 nonlinear_de solid ellipse black lightgrey
+node discrete_probability_distributions 30.384 6.6428 3.9274 0.5 discrete_probability_distributions solid ellipse black lightgrey
+node continuous_probability_distributions 33.687 5.7187 4.2705 0.5 continuous_probability_distributions solid ellipse black lightgrey
+node descriptive_statistics 29.074 13.709 2.5414 0.5 descriptive_statistics solid ellipse black lightgrey
+node inferential_statistics 30.383 13.095 2.4668 0.5 inferential_statistics solid ellipse black lightgrey
+node cardinal 31.543 70.956 1.1704 0.5 cardinal solid ellipse black lightgrey
+node second_order_logic 26.048 70.394 2.422 0.5 second_order_logic solid ellipse black lightgrey
+node higher_order_logic 27.165 71.146 2.3625 0.5 higher_order_logic solid ellipse black lightgrey
+node formal_language 29.112 76.096 2.124 0.5 formal_language solid ellipse black lightgrey
+node formal_grammar 26.866 76.326 2.1239 0.5 formal_grammar solid ellipse black lightgrey
+node natural_numbers 50.663 57.652 2.1092 0.5 natural_numbers solid ellipse black lightgrey
+node integer_numbers 52.881 57.503 2.1092 0.5 integer_numbers solid ellipse black lightgrey
+node rational_numbers 51.966 53.491 2.1838 0.5 rational_numbers solid ellipse black lightgrey
+node prime_numbers 52.823 58.118 1.9902 0.5 prime_numbers solid ellipse black lightgrey
+node unary 57.615 66.704 0.91732 0.5 unary solid ellipse black lightgrey
+node binary 55.726 67.504 0.99186 0.5 binary solid ellipse black lightgrey
+node factor 44.352 60.492 0.93199 0.5 factor solid ellipse black lightgrey
+node multiple 45.529 59.899 1.2007 0.5 multiple solid ellipse black lightgrey
+node Fermat_factorization_method 43.054 59.879 3.4947 0.5 Fermat_factorization_method solid ellipse black lightgrey
+node Euler_factorization_method 47.789 61.102 3.3159 0.5 Euler_factorization_method solid ellipse black lightgrey
+node optimal_polynomials 53.864 51.12 2.5867 0.5 optimal_polynomials solid ellipse black lightgrey
+node Chebyshev_approximation 54.481 52.283 3.1972 0.5 Chebyshev_approximation solid ellipse black lightgrey
+node magic_squares 53.609 54.1 1.9005 0.5 magic_squares solid ellipse black lightgrey
+node Rubik_cubes 52.583 55.6 1.7072 0.5 Rubik_cubes solid ellipse black lightgrey
+node cellular_automata 53.617 54.99 2.2282 0.5 cellular_automata solid ellipse black lightgrey
+node undirected_graph 6.3316 38.965 2.1836 0.5 undirected_graph solid ellipse black lightgrey
+node tree 2.9205 39.104 0.75 0.5 tree solid ellipse black lightgrey
+node directed_graph 7.4351 37.718 1.9153 0.5 directed_graph solid ellipse black lightgrey
+node regular_graph 9.1408 38.965 1.811 0.5 regular_graph solid ellipse black lightgrey
+node weighted_graph 10.391 36.299 2.0347 0.5 weighted_graph solid ellipse black lightgrey
+node complete_graph 7.3457 37.038 2.0347 0.5 complete_graph solid ellipse black lightgrey
+node finite_graph 8.8388 35.688 1.6176 0.5 finite_graph solid ellipse black lightgrey
+node connected_graph 7.6017 40.188 2.1388 0.5 connected_graph solid ellipse black lightgrey
+node disconnected_graph 7.287 38.354 2.4518 0.5 disconnected_graph solid ellipse black lightgrey
+node planar_graph 8.3971 39.578 1.7217 0.5 planar_graph solid ellipse black lightgrey
+node vertices 9.3549 40.443 1.1406 0.5 vertices solid ellipse black lightgrey
+node edges 8.8 36.429 0.91729 0.5 edges solid ellipse black lightgrey
+node multigraph 9.2452 37.555 1.4838 0.5 multigraph solid ellipse black lightgrey
+node graphical_enumeration 11.438 30.78 2.7795 0.5 graphical_enumeration solid ellipse black lightgrey
+node subgraph_isomorphism_problem 8.565 32.003 3.853 0.5 subgraph_isomorphism_problem solid ellipse black lightgrey
+node graph_coloring 9.2505 31.391 1.9454 0.5 graph_coloring solid ellipse black lightgrey
+node four_color_theorem 6.47 28.415 2.4518 0.5 four_color_theorem solid ellipse black lightgrey
+node route_problems 5.9454 32.615 1.9902 0.5 route_problems solid ellipse black lightgrey
+node platonic_solid 71.265 36.713 1.8265 0.5 platonic_solid solid ellipse black lightgrey
+node kepler_poinsot_solid 72.497 42.521 2.5566 0.5 kepler_poinsot_solid solid ellipse black lightgrey
+node archimedean_solid 76.2 38.84 2.3326 0.5 archimedean_solid solid ellipse black lightgrey
+node catalan_solid 70.572 39.708 1.7219 0.5 catalan_solid solid ellipse black lightgrey
+node tetrahedron 73.705 34.238 1.528 0.5 tetrahedron solid ellipse black lightgrey
+node cube 72.424 33.727 0.81297 0.5 cube solid ellipse black lightgrey
+node octahedron 71.865 34.339 1.4983 0.5 octahedron solid ellipse black lightgrey
+node dodecahedron 74.486 35.734 1.811 0.5 dodecahedron solid ellipse black lightgrey
+node icosahedron 74.073 34.865 1.6026 0.5 icosahedron solid ellipse black lightgrey
+node great_dodecahedron 76.464 43.364 2.4813 0.5 great_dodecahedron solid ellipse black lightgrey
+node small_stellated_dodecahedron 76.836 45.119 3.5543 0.5 small_stellated_dodecahedron solid ellipse black lightgrey
+node great_icosahedron 74.807 45.73 2.2728 0.5 great_icosahedron solid ellipse black lightgrey
+node great_stellated_dodecahedron 77.248 44.089 3.5093 0.5 great_stellated_dodecahedron solid ellipse black lightgrey
+node truncated_tetrahedron 79.987 37.702 2.6601 0.5 truncated_tetrahedron solid ellipse black lightgrey
+node cuboctahedron 78.986 37.057 1.8856 0.5 cuboctahedron solid ellipse black lightgrey
+node truncated_cube 79.991 39.728 1.9451 0.5 truncated_cube solid ellipse black lightgrey
+node truncated_octahedron 81.235 40.339 2.6304 0.5 truncated_octahedron solid ellipse black lightgrey
+node rhombicuboctahedron 76.832 35.509 2.6605 0.5 rhombicuboctahedron solid ellipse black lightgrey
+node truncated_cuboctahedron 80.868 39.005 3.0177 0.5 truncated_cuboctahedron solid ellipse black lightgrey
+node snub_cube 79.081 40.809 1.4538 0.5 snub_cube solid ellipse black lightgrey
+node icosidodecahedron 80.205 36.445 2.3177 0.5 icosidodecahedron solid ellipse black lightgrey
+node truncated_dodecahedron 77.431 39.448 2.9432 0.5 truncated_dodecahedron solid ellipse black lightgrey
+node truncated_icosahedron 82.797 37.662 2.7347 0.5 truncated_icosahedron solid ellipse black lightgrey
+node rhombicosidodecahedron 79.784 35.606 3.018 0.5 rhombicosidodecahedron solid ellipse black lightgrey
+node truncated_icosidodecahedron 82.438 38.394 3.4498 0.5 truncated_icosidodecahedron solid ellipse black lightgrey
+node snub_dodecahedron 79.376 38.39 2.4519 0.5 snub_dodecahedron solid ellipse black lightgrey
+node simplicial_homology 38.409 22.896 2.5867 0.5 simplicial_homology solid ellipse black lightgrey
+node singular_homology 42.482 22.896 2.3928 0.5 singular_homology solid ellipse black lightgrey
+node group_homology 40.518 22.284 2.1545 0.5 group_homology solid ellipse black lightgrey
+node affine_manifold 42.794 21.105 2.0346 0.5 affine_manifold solid ellipse black lightgrey
+node analytic_manifold 40.536 21.565 2.2583 0.5 analytic_manifold solid ellipse black lightgrey
+node complex_manifold 38.128 21.183 2.3329 0.5 complex_manifold solid ellipse black lightgrey
+node differentiable_manifolds 37.817 21.844 2.9583 0.5 differentiable_manifolds solid ellipse black lightgrey
+node smooth_manifold 45.602 22.543 2.1991 0.5 smooth_manifold solid ellipse black lightgrey
+node topological_manifold 43.083 22.177 2.6162 0.5 topological_manifold solid ellipse black lightgrey
+node Hamiltonian_path_problem 1.6422 30.692 3.2717 0.5 Hamiltonian_path_problem solid ellipse black lightgrey
+node minimum_spanning_tree 1.6042 31.557 2.9887 0.5 minimum_spanning_tree solid ellipse black lightgrey
+node seven_bridges_of_Königsberg 2.6068 29.059 3.6609 0.5 seven_bridges_of_Königsberg solid ellipse black lightgrey
+node shortest_path_problem 1.6479 32.496 2.765 0.5 shortest_path_problem solid ellipse black lightgrey
+node traveling_salesman_problem 2.0708 29.898 3.4055 0.5 traveling_salesman_problem solid ellipse black lightgrey
+node geometric_fractals 12.032 56.302 2.3025 0.5 geometric_fractals solid ellipse black lightgrey
+node algebraic_fractals 14.199 56.912 2.2129 0.5 algebraic_fractals solid ellipse black lightgrey
+node discrete_uniform_distribution 26.035 2.8989 3.51 0.5 discrete_uniform_distribution solid ellipse black lightgrey
+node binomial_distribution 27.363 2.2883 2.6314 0.5 binomial_distribution solid ellipse black lightgrey
+node Bernoulli_distribution 30.149 2.2894 2.6909 0.5 Bernoulli_distribution solid ellipse black lightgrey
+node Poisson_distribution 28.8 1.677 2.5123 0.5 Poisson_distribution solid ellipse black lightgrey
+node geometric_distribution 32.984 2.3455 2.7502 0.5 geometric_distribution solid ellipse black lightgrey
+node normal_distribution 31.159 0.9045 2.4375 0.5 normal_distribution solid ellipse black lightgrey
+node continuous_uniform_distribution 37.552 1.0968 3.8532 0.5 continuous_uniform_distribution solid ellipse black lightgrey
+node gamma_distribution 35.796 0.48581 2.4673 0.5 gamma_distribution solid ellipse black lightgrey
+node exponential_distribution 33.949 1.0947 2.9292 0.5 exponential_distribution solid ellipse black lightgrey
+node Cauchy_distribution 33.197 0.25312 2.4971 0.5 Cauchy_distribution solid ellipse black lightgrey
+node Koch_snowflake 7.9891 56.534 2.124 0.5 Koch_snowflake solid ellipse black lightgrey
+node T_square 9.4842 58.806 1.3046 0.5 T_square solid ellipse black lightgrey
+node Sierpinski_triangle 7.8732 57.514 2.3479 0.5 Sierpinski_triangle solid ellipse black lightgrey
+node Pythagoras_tree 8.2707 58.196 2.0346 0.5 Pythagoras_tree solid ellipse black lightgrey
+node Mandelbrot_set 11.296 59.524 1.9901 0.5 Mandelbrot_set solid ellipse black lightgrey
+node unary_positive 60.923 68.23 1.9009 0.5 unary_positive solid ellipse black lightgrey
+node unary_negative 56.534 69.388 1.9601 0.5 unary_negative solid ellipse black lightgrey
+node negation 59.244 68.215 1.2303 0.5 negation solid ellipse black lightgrey
+node factorial 59.857 68.842 1.2002 0.5 factorial solid ellipse black lightgrey
+node root 58.772 68.871 0.75 0.5 root solid ellipse black lightgrey
+node trigonometric_functions 61.425 67.619 2.8991 0.5 trigonometric_functions solid ellipse black lightgrey
+node addition 56.908 70.26 1.1858 0.5 addition solid ellipse black lightgrey
+node substrution 55.453 70.554 1.4988 0.5 substrution solid ellipse black lightgrey
+node multiplication 58.534 69.762 1.8117 0.5 multiplication solid ellipse black lightgrey
+node union 30.279 79.083 0.91761 0.5 union solid ellipse black lightgrey
+node intersection 27.835 79.643 1.558 0.5 intersection solid ellipse black lightgrey
+node complement 29.541 79.89 1.6326 0.5 complement solid ellipse black lightgrey
+node concatenation 26.912 79.033 1.7962 0.5 concatenation solid ellipse black lightgrey
+node Kleene_star 28.914 79.032 1.5875 0.5 Kleene_star solid ellipse black lightgrey
+node logical_symbols 25.842 81.329 2.065 0.5 logical_symbols solid ellipse black lightgrey
+node non_logical_symbols 23.394 81.059 2.6015 0.5 non_logical_symbols solid ellipse black lightgrey
+node quantifier 26.312 84.738 1.3493 0.5 quantifier solid ellipse black lightgrey
+node logical_connectives 24.308 85.241 2.4369 0.5 logical_connectives solid ellipse black lightgrey
+node predicates 20.904 84.075 1.3938 0.5 predicates solid ellipse black lightgrey
+node functions 22.229 84.687 1.3049 0.5 functions solid ellipse black lightgrey
+node constants 20.514 83.432 1.3048 0.5 constants solid ellipse black lightgrey
+node elementary_number_theory 43.301 55.558 3.2711 0.5 elementary_number_theory solid ellipse black lightgrey
+node analytic_number_theory 46.701 51.701 2.9286 0.5 analytic_number_theory solid ellipse black lightgrey
+node algebraic_number_theory 47.877 50.59 3.0625 0.5 algebraic_number_theory solid ellipse black lightgrey
+node all_combinatorics 24.215 41.777 2.2285 0.5 all_combinatorics solid ellipse black lightgrey
+node design_theory 24.61 40.747 1.8263 0.5 design_theory solid ellipse black lightgrey
+node measure_theory 27.103 49.769 2.0196 0.5 measure_theory solid ellipse black lightgrey
+node provability_logic 31.291 66.57 2.1543 0.5 provability_logic solid ellipse black lightgrey
+node riemannian_geometry 67.037 42.376 2.6604 0.5 riemannian_geometry solid ellipse black lightgrey
+edge math pure_math 4 35.927 37.993 36.201 39.143 37.342 43.942 37.616 45.097 solid black
+edge math applied_math 4 35.81 37.493 35.536 36.314 34.385 31.346 34.112 30.17 solid black
+edge pure_math foundations 4 37.612 45.6 37.275 46.942 35.694 53.22 35.359 54.553 solid black
+edge pure_math number_theory 4 37.916 45.587 38.986 46.659 43.321 50.999 44.396 52.075 solid black
+edge pure_math algebra 4 37.952 45.115 38.716 44.469 40.857 42.662 41.61 42.026 solid black
+edge pure_math combinatorics 4 37.199 45.157 35.554 44.501 30.133 42.34 28.429 41.66 solid black
+edge pure_math geometry 4 38.332 45.238 40.169 44.932 45.349 44.07 47.123 43.775 solid black
+edge pure_math topology 4 37.718 45.096 37.905 43.986 38.655 39.53 38.842 38.417 solid black
+edge pure_math math_analysis 4 37.265 45.555 35.919 46.236 31.646 48.398 30.265 49.097 solid black
+edge applied_math probability_and_statistics 4 34.026 29.667 33.891 28.41 33.289 22.841 33.154 21.585 solid black
+edge applied_math computational_sciences 4 33.799 29.675 33.183 29.086 31.618 27.59 30.996 26.995 solid black
+edge applied_math mathematical_physics 4 33.956 29.668 33.618 28.797 32.497 25.908 32.159 25.037 solid black
+edge applied_math mathematical_optimization 4 33.985 29.665 33.799 28.976 33.285 27.076 33.099 26.388 solid black
+edge foundations proof_theory 4 35.204 55.055 34.754 56.295 32.776 61.738 32.326 62.976 solid black
+edge foundations model_theory 4 35.341 55.057 35.469 55.775 35.832 57.808 35.96 58.523 solid black
+edge foundations set_theory 4 35.307 55.055 35.346 55.923 35.475 58.776 35.514 59.646 solid black
+edge number_theory arithmetic 4 44.831 52.566 45.584 53.535 48.324 57.062 49.07 58.021 solid black
+edge number_theory divisibility_theory 4 44.589 52.574 44.427 53.402 43.921 56.003 43.762 56.824 solid black
+edge number_theory prime_factorization 4 44.728 52.568 44.999 53.327 45.814 55.604 46.086 56.365 solid black
+edge number_theory approximation_theory 4 45.575 52.25 46.364 52.192 47.5 52.109 48.367 52.046 solid black
+edge number_theory Diophantine_equations 4 44.836 52.564 45.242 53.07 46.169 54.224 46.578 54.733 solid black
+edge number_theory number_classes 4 44.992 52.553 45.889 53.147 48.245 54.709 49.147 55.308 solid black
+edge number_theory entertaining_math 4 45.286 52.505 46.23 52.777 47.976 53.28 48.944 53.56 solid black
+edge number_theory elementary_number_theory 4 44.536 52.567 44.287 53.17 43.653 54.704 43.404 55.308 solid black
+edge number_theory analytic_number_theory 4 45.274 52.128 45.495 52.062 45.745 51.987 45.974 51.919 solid black
+edge number_theory algebraic_number_theory 4 45.062 52.092 45.674 51.765 46.801 51.164 47.428 50.83 solid black
+edge algebra order_theory 4 41.996 41.554 42.305 40.917 43.123 39.235 43.433 38.596 solid black
+edge algebra general_algebraic_systems 4 42.151 41.585 42.929 40.972 45.139 39.232 45.964 38.582 solid black
+edge algebra field_theory 4 42.39 41.712 42.962 41.611 43.891 41.448 44.531 41.335 solid black
+edge combinatorics partition_theory 4 27.678 41.208 27.068 40.567 25.434 38.847 24.825 38.206 solid black
+edge combinatorics graph_theory 4 27.285 41.27 25.584 40.771 20.888 39.393 19.205 38.899 solid black
+edge combinatorics finite_geometry 4 27.622 41.215 26.991 40.697 25.503 39.472 24.871 38.952 solid black
+edge combinatorics unions 4 27.662 41.696 27.298 42.051 26.624 42.707 26.269 43.052 solid black
+edge combinatorics pairs 4 27.852 41.201 27.756 40.792 27.567 39.988 27.471 39.579 solid black
+edge combinatorics sequences 4 28.069 41.204 28.354 40.754 28.95 39.813 29.233 39.367 solid black
+edge combinatorics trees 4 27.55 41.221 27.15 40.964 26.514 40.555 26.148 40.319 solid black
+edge combinatorics set 4 27.349 41.653 26.966 41.789 26.471 41.964 26.148 42.078 solid black
+edge combinatorics multiset 4 27.754 41.206 27.445 40.721 26.762 39.649 26.455 39.166 solid black
+edge combinatorics cycle 4 27.933 41.201 27.977 40.679 28.077 39.488 28.121 38.967 solid black
+edge combinatorics all_combinatorics 4 27.04 41.53 26.506 41.577 25.82 41.637 25.258 41.686 solid black
+edge combinatorics design_theory 4 27.191 41.299 26.641 41.182 25.885 41.02 25.334 40.902 solid black
+edge geometry сonvex_geometry 4 48.168 43.485 48.821 43.206 50.044 42.682 50.741 42.384 solid black
+edge geometry discrete_geometry 4 48.328 43.567 50.052 43.26 55.018 42.377 57.054 42.014 solid black
+edge geometry differential_geometry 4 48.389 43.682 49.104 43.691 50.261 43.705 51.164 43.716 solid black
+edge topology general_topology 4 38.965 37.91 39.183 37.224 39.782 35.333 39.999 34.648 solid black
+edge topology algebraic_topology 4 38.925 37.913 39.108 36.767 39.862 32.03 40.045 30.882 solid black
+edge math_analysis real_analysis 4 28.914 49.282 28.044 49.248 26.747 49.197 25.9 49.164 solid black
+edge math_analysis complex_analysis 4 29.273 49.517 28.008 49.973 24.926 51.083 23.626 51.551 solid black
+edge math_analysis functional_analysis 4 29.488 49.552 28.664 50.12 26.569 51.563 25.737 52.136 solid black
+edge math_analysis differential_equations 4 29.659 49.564 29.09 50.391 27.249 53.065 26.674 53.901 solid black
+edge math_analysis numerical_analysis 4 29.771 49.569 29.639 50.137 29.319 51.511 29.187 52.08 solid black
+edge math_analysis measure_theory 4 29.04 49.448 28.696 49.505 28.292 49.572 27.942 49.63 solid black
+edge probability_and_statistics probability_theory 4 33.119 21.079 33.082 19.862 32.925 14.624 32.888 13.413 solid black
+edge probability_and_statistics statistics 4 33.025 21.08 32.696 20.261 31.662 17.691 31.336 16.879 solid black
+edge computational_sciences computer_algebra 4 30.496 26.495 29.934 25.906 28.537 24.443 27.978 23.858 solid black
+edge mathematical_physics classical_mech 4 32.078 24.532 32.125 23.787 32.261 21.612 32.308 20.871 solid black
+edge mathematical_physics particle_mech 4 31.943 24.533 31.627 23.856 30.766 22.017 30.451 21.344 solid black
+edge mathematical_physics fluid_mech 4 31.849 24.537 31.373 23.98 30.232 22.644 29.764 22.096 solid black
+edge proof_theory structural_proof_theory 4 31.983 63.469 31.446 63.985 30.197 65.187 29.655 65.71 solid black
+edge proof_theory ordinal_analysis 4 32.195 63.479 32.072 64.244 31.706 66.54 31.584 67.307 solid black
+edge proof_theory reverse_mathematics 4 32.044 63.475 31.485 64.201 29.859 66.315 29.299 67.044 solid black
+edge proof_theory functional_interpretations 4 32.363 63.477 32.709 64.153 33.661 66.014 34.01 66.695 solid black
+edge proof_theory formal_proof 4 32.15 63.476 31.774 64.588 30.248 69.094 29.869 70.212 solid black
+edge proof_theory provability_logic 4 32.164 63.478 31.988 64.099 31.536 65.701 31.362 66.32 solid black
+edge model_theory universal_algebra 4 35.758 59.019 35.325 59.447 34.431 60.33 33.993 60.763 solid black
+edge model_theory finite_model_theory 4 36.138 59.023 36.479 59.657 37.381 61.334 37.724 61.971 solid black
+edge model_theory first_order_logic 4 36.155 59.023 36.464 59.534 37.17 60.698 37.481 61.212 solid black
+edge model_theory categoricity 4 35.976 59.029 35.914 59.572 35.77 60.841 35.709 61.384 solid black
+edge set_theory combinatorial_set_theory 4 36.138 60.029 36.959 60.202 38.423 60.511 39.383 60.713 solid black
+edge set_theory descriptive_set_theory 4 34.985 60.065 34.196 60.304 32.73 60.75 31.857 61.015 solid black
+edge set_theory fuzzy_set_theory 4 35.492 60.156 35.403 60.824 35.166 62.62 35.079 63.283 solid black
+edge set_theory large_cardinals 4 35.657 60.149 35.971 60.739 36.758 62.222 37.073 62.816 solid black
+edge set_theory determinacy 4 35.397 60.15 35.125 60.676 34.498 61.89 34.228 62.414 solid black
+edge set_theory forcing 4 35.531 60.154 35.541 60.689 35.566 61.925 35.576 62.457 solid black
+edge arithmetic numbers 4 49.389 58.512 49.663 59.034 50.298 60.24 50.571 60.76 solid black
+edge arithmetic operations 4 49.465 58.506 50.203 59.372 52.713 62.314 53.451 63.179 solid black
+edge order_theory order_definitions 4 43.901 38.113 44.442 37.751 45.48 37.055 46.024 36.69 solid black
+edge order_theory order_functions 4 43.633 38.093 43.822 37.483 44.303 35.932 44.492 35.321 solid black
+edge order_theory subsets 4 43.527 38.092 43.473 37.612 43.357 36.575 43.303 36.098 solid black
+edge order_theory special_sets 4 43.698 38.096 43.972 37.616 44.571 36.569 44.844 36.09 solid black
+edge general_algebraic_systems groups 4 47.003 38.109 47.746 37.88 48.88 37.529 49.498 37.338 solid black
+edge general_algebraic_systems rings 4 46.415 38.082 46.75 37.46 47.616 35.85 47.945 35.24 solid black
+edge general_algebraic_systems algebras 4 46.687 38.087 47.38 37.667 48.778 36.821 49.424 36.43 solid black
+edge general_algebraic_systems lattice 4 46.533 38.081 47.065 37.554 48.29 36.337 48.796 35.834 solid black
+edge field_theory field_type 4 46.038 41.253 46.44 41.274 46.922 41.299 47.307 41.319 solid black
+edge field_theory field_characteristics 4 45.783 41.024 46.42 40.805 47.472 40.443 48.142 40.212 solid black
+edge field_theory field_extensions 4 45.65 40.994 45.751 40.94 45.86 40.883 45.962 40.829 solid black
+edge partition_theory generating_function 4 24.382 37.714 23.881 37.128 22.626 35.658 22.123 35.069 solid black
+edge partition_theory recurrence_relation 4 24.259 37.724 23.643 37.286 22.33 36.355 21.708 35.913 solid black
+edge graph_theory graph_type 4 17.736 38.675 16.287 38.601 13.374 38.451 11.999 38.38 solid black
+edge graph_theory graph_problems 4 18.219 38.491 17.093 37.803 13.746 35.757 12.611 35.063 solid black
+edge finite_geometry affine_planes 4 24.545 38.458 24.462 37.842 24.249 36.271 24.166 35.659 solid black
+edge finite_geometry projective_planes 4 24.062 38.496 23.413 38.224 22.304 37.76 21.65 37.487 solid black
+edge сonvex_geometry general_convexity 4 51.664 41.924 52.316 41.541 53.598 40.788 54.249 40.405 solid black
+edge discrete_geometry polyhedra 4 58.847 41.702 60.806 41.367 65.398 40.583 67.075 40.296 solid black
+edge discrete_geometry tilings 4 58.458 41.631 59.05 41.372 60.006 40.954 60.531 40.724 solid black
+edge discrete_geometry geometric_graph_theory 4 59.089 41.847 59.74 41.841 60.56 41.834 61.258 41.828 solid black
+edge differential_geometry pseudo_riemannian_geometry 4 53.798 43.762 54.376 43.775 55.062 43.791 55.683 43.806 solid black
+edge differential_geometry other_geometry 4 53.381 43.917 54.024 44.05 54.881 44.227 55.494 44.354 solid black
+edge differential_geometry differential_topology 4 53.125 43.512 53.799 43.28 54.852 42.919 55.525 42.688 solid black
+edge general_topology continuous_functions 4 40.379 34.153 40.976 33.671 42.305 32.596 42.905 32.111 solid black
+edge general_topology compact_sets 4 39.942 34.147 39.65 33.615 38.967 32.372 38.675 31.84 solid black
+edge general_topology connected_sets 4 40.179 34.144 40.414 33.556 40.995 32.097 41.23 31.507 solid black
+edge algebraic_topology homotopy_groups 4 40.364 30.382 40.941 29.87 42.259 28.698 42.831 28.19 solid black
+edge algebraic_topology homology 4 40.104 30.378 40.166 29.548 40.364 26.907 40.426 26.072 solid black
+edge algebraic_topology cohomology 4 39.925 30.382 39.57 29.833 38.719 28.518 38.364 27.97 solid black
+edge algebraic_topology manifolds 4 40.131 30.379 40.311 29.392 40.969 25.779 41.151 24.783 solid black
+edge algebraic_topology knot_theory 4 40.194 30.377 40.459 29.762 41.133 28.196 41.396 27.586 solid black
+edge algebraic_topology complexes 4 40.069 30.375 40.027 29.754 39.923 28.174 39.882 27.557 solid black
+edge real_analysis limits 4 24.531 49.332 24.049 49.517 23.345 49.788 22.916 49.953 solid black
+edge real_analysis differentiation 4 24.314 49.003 23.739 48.903 22.941 48.764 22.354 48.662 solid black
+edge real_analysis series 4 24.626 48.911 24.17 48.675 23.455 48.305 23.037 48.088 solid black
+edge real_analysis integration 4 24.248 49.219 23.712 49.278 23.015 49.354 22.502 49.41 solid black
+edge complex_analysis fractals 4 22.536 51.99 21.406 52.503 18.665 53.748 17.648 54.21 solid black
+edge functional_analysis soft_analysis 4 25.075 52.621 24.487 53.079 23.23 54.059 22.65 54.51 solid black
+edge functional_analysis theory_of_images 4 25.041 52.617 24.557 52.952 23.683 53.558 23.198 53.893 solid black
+edge functional_analysis quantum_functional_analysis 4 24.727 52.587 23.681 52.919 21.655 53.563 20.574 53.907 solid black
+edge functional_analysis nonlinear_functional_analysis 4 24.612 52.568 23.787 52.772 22.486 53.093 21.625 53.306 solid black
+edge differential_equations ordinary_de 4 26.342 54.406 25.941 55.046 24.895 56.718 24.497 57.353 solid black
+edge differential_equations first_order_de 4 26.13 54.395 25.469 54.826 24.099 55.721 23.451 56.144 solid black
+edge differential_equations partial_de 4 26.427 54.404 26.269 54.943 25.9 56.202 25.743 56.74 solid black
+edge differential_equations linear_de 4 26.459 54.407 26.35 55.074 26.058 56.864 25.95 57.525 solid black
+edge differential_equations nonlinear_de 4 26.259 54.399 25.731 54.939 24.481 56.218 23.959 56.751 solid black
+edge probability_theory discrete_probability_distributions 4 32.784 12.911 32.387 11.873 30.877 7.9302 30.481 6.8937 solid black
+edge probability_theory continuous_probability_distributions 4 32.908 12.911 33.031 11.772 33.537 7.1095 33.66 5.9705 solid black
+edge statistics descriptive_statistics 4 31.055 16.386 30.649 15.838 29.668 14.512 29.258 13.958 solid black
+edge statistics inferential_statistics 4 31.174 16.376 31.017 15.724 30.6 13.997 30.444 13.347 solid black
+edge ordinal_analysis cardinal 4 31.543 67.814 31.543 68.446 31.543 70.073 31.543 70.703 solid black
+edge reverse_mathematics second_order_logic 4 28.861 67.543 28.287 68.124 26.861 69.57 26.29 70.149 solid black
+edge reverse_mathematics higher_order_logic 4 28.979 67.547 28.626 68.246 27.64 70.202 27.29 70.897 solid black
+edge formal_proof formal_language 4 29.754 70.717 29.642 71.652 29.254 74.909 29.142 75.844 solid black
+edge formal_proof formal_grammar 4 29.66 70.712 29.184 71.669 27.47 75.112 26.991 76.075 solid black
+edge operations unary 4 53.935 63.651 54.671 64.262 56.658 65.91 57.363 66.495 solid black
+edge operations binary 4 53.783 63.67 54.153 64.401 55.233 66.532 55.601 67.258 solid black
+edge divisibility_theory factor 4 43.76 57.327 43.878 57.959 44.186 59.608 44.305 60.24 solid black
+edge divisibility_theory multiple 4 43.874 57.326 44.22 57.865 45.032 59.126 45.373 59.657 solid black
+edge prime_factorization Fermat_factorization_method 4 45.941 56.86 45.363 57.465 43.872 59.023 43.291 59.631 solid black
+edge prime_factorization Euler_factorization_method 4 46.267 56.869 46.551 57.659 47.416 60.065 47.699 60.851 solid black
+edge approximation_theory optimal_polynomials 4 50.546 51.772 51.26 51.632 52.244 51.439 52.954 51.299 solid black
+edge approximation_theory Chebyshev_approximation 4 50.884 52.04 51.535 52.084 52.333 52.138 53.012 52.184 solid black
+edge number_classes real_numbers 4 49.655 55.796 50.009 56.391 50.899 57.887 51.252 58.481 solid black
+edge number_classes complex_numbers 4 50.094 55.749 50.819 55.999 52.047 56.422 52.786 56.677 solid black
+edge number_classes natural_numbers 4 49.644 55.796 49.866 56.201 50.303 56.997 50.526 57.402 solid black
+edge number_classes integer_numbers 4 49.907 55.778 50.557 56.155 51.832 56.895 52.482 57.271 solid black
+edge number_classes rational_numbers 4 49.794 55.306 50.266 54.911 51.204 54.128 51.678 53.732 solid black
+edge number_classes prime_numbers 4 49.819 55.788 50.452 56.279 51.883 57.389 52.514 57.879 solid black
+edge entertaining_math magic_squares 4 50.689 53.849 51.317 53.903 52.106 53.971 52.705 54.023 solid black
+edge entertaining_math Rubik_cubes 4 50.014 53.996 50.585 54.352 51.657 55.022 52.219 55.373 solid black
+edge entertaining_math cellular_automata 4 50.297 53.963 51.035 54.192 52.223 54.559 52.96 54.786 solid black
+edge graph_type undirected_graph 4 10.537 38.431 9.6823 38.54 8.2429 38.723 7.29 38.844 solid black
+edge graph_type directed_graph 4 10.565 38.23 9.9162 38.124 8.9392 37.964 8.2496 37.851 solid black
+edge graph_type regular_graph 4 10.682 38.508 10.397 38.593 10.051 38.696 9.7584 38.782 solid black
+edge graph_type weighted_graph 4 11.142 38.091 10.977 37.699 10.662 36.945 10.497 36.552 solid black
+edge graph_type complete_graph 4 10.712 38.163 9.9902 37.921 8.7066 37.493 7.9502 37.24 solid black
+edge graph_type finite_graph 4 11.028 38.101 10.571 37.597 9.5162 36.435 9.0579 35.93 solid black
+edge graph_type connected_graph 4 10.832 38.551 10.142 38.901 8.762 39.6 8.05 39.961 solid black
+edge graph_type disconnected_graph 4 10.488 38.343 9.9296 38.345 9.1593 38.348 8.5142 38.35 solid black
+edge graph_type planar_graph 4 10.782 38.542 10.259 38.77 9.4112 39.138 8.8801 39.368 solid black
+edge graph_type vertices 4 11.029 38.582 10.665 38.988 9.9325 39.801 9.5694 40.205 solid black
+edge graph_type edges 4 10.951 38.11 10.47 37.734 9.5223 36.993 9.0626 36.634 solid black
+edge graph_type multigraph 4 10.757 38.149 10.444 38.026 10.041 37.867 9.7297 37.745 solid black
+edge graph_problems graphical_enumeration 4 12.179 34.576 12.037 33.849 11.63 31.76 11.488 31.033 solid black
+edge graph_problems subgraph_isomorphism_problem 4 11.916 34.589 11.228 34.057 9.5845 32.79 8.887 32.252 solid black
+edge graph_problems graph_coloring 4 12.015 34.582 11.465 33.948 10.01 32.268 9.4627 31.636 solid black
+edge graph_problems route_problems 4 11.643 34.623 10.444 34.201 7.7228 33.242 6.5271 32.82 solid black
+edge polyhedra platonic_solid 4 67.948 39.95 68.597 39.316 70.357 37.599 71.013 36.958 solid black
+edge polyhedra kepler_poinsot_solid 4 68.116 40.39 69.002 40.821 71.08 41.832 72.02 42.289 solid black
+edge polyhedra archimedean_solid 4 68.335 40.088 69.816 39.853 73.517 39.266 75.262 38.989 solid black
+edge polyhedra catalan_solid 4 68.333 40.083 68.772 40.01 69.359 39.912 69.822 39.834 solid black
+edge geometric_graph_theory riemannian_geometry 4 63.903 41.968 64.538 42.051 65.317 42.152 65.94 42.233 solid black
+edge homology simplicial_homology 4 40.275 25.573 39.893 25.025 38.969 23.699 38.583 23.146 solid black
+edge homology singular_homology 4 40.616 25.573 40.998 25.024 41.922 23.699 42.308 23.145 solid black
+edge homology group_homology 4 40.451 25.563 40.464 24.911 40.499 23.185 40.513 22.536 solid black
+edge manifolds affine_manifold 4 41.315 24.275 41.61 23.642 42.381 21.99 42.677 21.357 solid black
+edge manifolds analytic_manifold 4 41.141 24.274 41.016 23.715 40.717 22.376 40.593 21.817 solid black
+edge manifolds complex_manifold 4 40.977 24.286 40.413 23.672 38.926 22.051 38.355 21.43 solid black
+edge manifolds differentiable_manifolds 4 40.909 24.298 40.279 23.797 38.78 22.609 38.129 22.091 solid black
+edge manifolds smooth_manifold 4 41.632 24.331 42.455 23.961 44.235 23.159 45.104 22.767 solid black
+edge manifolds topological_manifold 4 41.392 24.284 41.753 23.835 42.52 22.878 42.884 22.425 solid black
+edge fractals geometric_fractals 4 16.831 54.543 15.899 54.885 13.686 55.696 12.623 56.085 solid black
+edge fractals algebraic_fractals 4 16.992 54.606 16.422 55.077 15.088 56.179 14.493 56.669 solid black
+edge discrete_probability_distributions discrete_uniform_distribution 4 30.092 6.3914 29.3 5.7093 27.117 3.83 26.326 3.1492 solid black
+edge discrete_probability_distributions binomial_distribution 4 30.209 6.3899 29.674 5.6184 28.066 3.3016 27.536 2.5365 solid black
+edge discrete_probability_distributions Bernoulli_distribution 4 30.371 6.3899 30.329 5.6205 30.204 3.3134 30.163 2.543 solid black
+edge discrete_probability_distributions Poisson_distribution 4 30.304 6.3897 30.032 5.5379 29.152 2.7807 28.881 1.9296 solid black
+edge discrete_probability_distributions geometric_distribution 4 30.535 6.3932 30.995 5.6337 32.372 3.3562 32.832 2.5958 solid black
+edge continuous_probability_distributions normal_distribution 4 33.555 5.4666 33.118 4.6347 31.725 1.9823 31.29 1.1541 solid black
+edge continuous_probability_distributions continuous_uniform_distribution 4 33.901 5.4636 34.578 4.6536 36.674 2.1464 37.344 1.3455 solid black
+edge continuous_probability_distributions gamma_distribution 4 33.789 5.4663 34.146 4.5802 35.34 1.6177 35.695 0.73566 solid black
+edge continuous_probability_distributions exponential_distribution 4 33.702 5.4635 33.748 4.655 33.889 2.1565 33.934 1.3491 solid black
+edge continuous_probability_distributions Cauchy_distribution 4 33.665 5.466 33.583 4.5507 33.301 1.4141 33.22 0.5031 solid black
+edge formal_language union 4 29.21 76.345 29.43 76.909 29.963 78.275 30.183 78.836 solid black
+edge formal_language intersection 4 29.022 76.345 28.788 76.997 28.159 78.743 27.925 79.394 solid black
+edge formal_language complement 4 29.141 76.351 29.219 77.042 29.434 78.946 29.512 79.636 solid black
+edge formal_language concatenation 4 28.925 76.346 28.508 76.903 27.509 78.235 27.096 78.787 solid black
+edge formal_language Kleene_star 4 29.095 76.346 29.058 76.9 28.969 78.222 28.931 78.778 solid black
+edge formal_grammar logical_symbols 4 26.814 76.581 26.638 77.439 26.07 80.217 25.894 81.074 solid black
+edge formal_grammar non_logical_symbols 4 26.684 76.574 26.086 77.39 24.18 79.987 23.578 80.808 solid black
+edge unary unary_positive 4 57.969 66.868 58.567 67.144 59.779 67.702 60.45 68.011 solid black
+edge unary unary_negative 4 57.515 66.952 57.31 67.462 56.842 68.624 56.635 69.137 solid black
+edge unary negation 4 57.848 66.921 58.153 67.203 58.683 67.695 58.995 67.984 solid black
+edge unary factorial 4 57.847 66.925 58.274 67.333 59.183 68.199 59.617 68.613 solid black
+edge unary root 4 57.743 66.945 57.966 67.361 58.42 68.213 58.643 68.63 solid black
+edge unary trigonometric_functions 4 58.037 66.806 58.648 66.952 59.789 67.226 60.577 67.416 solid black
+edge binary addition 4 55.831 67.749 56.054 68.271 56.577 69.488 56.802 70.012 solid black
+edge binary substrution 4 55.703 67.759 55.652 68.335 55.527 69.729 55.476 70.302 solid black
+edge binary multiplication 4 55.99 67.717 56.515 68.139 57.689 69.083 58.239 69.525 solid black
+edge undirected_graph tree 4 5.2523 39.009 4.5828 39.037 3.7638 39.07 3.2961 39.089 solid black
+edge graph_coloring four_color_theorem 4 9.0881 31.141 8.6358 30.578 7.3686 29.219 6.778 28.66 solid black
+edge graph_coloring four_color_theorem 4 8.9468 31.15 8.3586 30.594 7.0881 29.231 6.6336 28.666 solid black
+edge route_problems Hamiltonian_path_problem 4 5.456 32.397 4.6431 32.033 3.021 31.308 2.1783 30.932 solid black
+edge route_problems minimum_spanning_tree 4 5.2286 32.441 4.4663 32.255 3.2615 31.961 2.4525 31.764 solid black
+edge route_problems seven_bridges_of_Königsberg 4 5.716 32.371 5.1075 31.723 3.4576 29.966 2.8424 29.31 solid black
+edge route_problems shortest_path_problem 4 4.9541 32.588 4.379 32.572 3.6462 32.551 3.0168 32.534 solid black
+edge route_problems traveling_salesman_problem 4 5.6084 32.379 4.8793 31.868 3.1618 30.663 2.421 30.143 solid black
+edge platonic_solid tetrahedron 4 71.503 36.471 71.971 35.997 73.003 34.949 73.469 34.477 solid black
+edge platonic_solid cube 4 71.361 36.464 71.58 35.9 72.11 34.534 72.328 33.973 solid black
+edge platonic_solid octahedron 4 71.328 36.464 71.443 36.007 71.687 35.045 71.802 34.588 solid black
+edge platonic_solid dodecahedron 4 71.878 36.527 72.451 36.352 73.302 36.094 73.875 35.92 solid black
+edge platonic_solid icosahedron 4 71.62 36.479 72.163 36.122 73.193 35.444 73.729 35.091 solid black
+edge kepler_poinsot_solid great_dodecahedron 4 73.368 42.706 74.034 42.847 74.947 43.041 75.609 43.182 solid black
+edge kepler_poinsot_solid small_stellated_dodecahedron 4 72.897 42.761 73.72 43.253 75.592 44.374 76.424 44.872 solid black
+edge kepler_poinsot_solid great_icosahedron 4 72.678 42.773 73.11 43.373 74.195 44.881 74.626 45.48 solid black
+edge kepler_poinsot_solid great_stellated_dodecahedron 4 73.153 42.737 74.045 43.032 75.635 43.556 76.549 43.858 solid black
+edge archimedean_solid truncated_tetrahedron 4 76.882 38.635 77.559 38.431 78.593 38.121 79.279 37.914 solid black
+edge archimedean_solid cuboctahedron 4 76.576 38.599 77.114 38.255 78.096 37.626 78.625 37.288 solid black
+edge archimedean_solid truncated_cube 4 76.991 39.025 77.663 39.182 78.621 39.407 79.273 39.56 solid black
+edge archimedean_solid truncated_octahedron 4 76.885 39.043 77.838 39.327 79.556 39.839 80.524 40.127 solid black
+edge archimedean_solid rhombicuboctahedron 4 76.248 38.589 76.365 37.972 76.666 36.382 76.784 35.762 solid black
+edge archimedean_solid truncated_cuboctahedron 4 77.354 38.88 77.97 38.902 78.734 38.929 79.392 38.953 solid black
+edge archimedean_solid snub_cube 4 76.554 39.081 77.115 39.465 78.205 40.21 78.751 40.584 solid black
+edge archimedean_solid icosidodecahedron 4 76.595 38.603 77.361 38.145 79.039 37.142 79.807 36.683 solid black
+edge archimedean_solid truncated_dodecahedron 4 76.666 39.069 76.758 39.115 76.855 39.163 76.949 39.209 solid black
+edge archimedean_solid truncated_icosahedron 4 77.097 38.68 78.33 38.46 80.54 38.065 81.816 37.837 solid black
+edge archimedean_solid rhombicosidodecahedron 4 76.476 38.591 77.143 37.989 78.84 36.458 79.508 35.855 solid black
+edge archimedean_solid truncated_icosidodecahedron 4 77.308 38.76 78.304 38.689 79.777 38.584 80.889 38.505 solid black
+edge archimedean_solid snub_dodecahedron 4 77.175 38.702 77.552 38.648 77.984 38.587 78.365 38.533 solid black
+edge geometric_fractals Koch_snowflake 4 10.916 56.366 10.325 56.4 9.6033 56.442 9.0245 56.475 solid black
+edge geometric_fractals T_square 4 11.783 56.546 11.292 57.029 10.205 58.097 9.7229 58.571 solid black
+edge geometric_fractals Sierpinski_triangle 4 11.34 56.503 10.571 56.727 9.3359 57.088 8.5662 57.312 solid black
+edge geometric_fractals Pythagoras_tree 4 11.574 56.532 10.848 56.898 9.4397 57.607 8.7191 57.97 solid black
+edge algebraic_fractals Mandelbrot_set 4 13.926 57.158 13.371 57.657 12.119 58.784 11.566 59.281 solid black
+edge logical_symbols quantifier 4 25.877 81.58 25.963 82.21 26.191 83.856 26.278 84.487 solid black
+edge logical_symbols logical_connectives 4 25.744 81.58 25.467 82.285 24.686 84.279 24.408 84.988 solid black
+edge non_logical_symbols predicates 4 23.186 81.311 22.714 81.883 21.566 83.273 21.103 83.834 solid black
+edge non_logical_symbols functions 4 23.312 81.314 23.098 81.981 22.522 83.775 22.309 84.437 solid black
+edge non_logical_symbols constants 4 23.097 81.304 22.538 81.764 21.337 82.754 20.793 83.202 solid black
+stop
+Fork me on GitHub
