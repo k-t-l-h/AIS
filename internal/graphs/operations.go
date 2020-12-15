@@ -17,7 +17,7 @@ func NewGraphContainer() *GraphContainer {
 	return &GraphContainer{}
 }
 
-func ( g *GraphContainer) Init() {
+func (g *GraphContainer) Init() {
 
 	g.p = make(map[string]int)
 	file, err := os.Open("graph.txt")
@@ -38,8 +38,7 @@ func ( g *GraphContainer) Init() {
 		}
 	}
 
-
-	g.g = graph.New(i+1)
+	g.g = graph.New(i + 1)
 	file2, err := os.Open("graph.txt")
 	defer file2.Close()
 	scanner = bufio.NewScanner(file2)
@@ -52,10 +51,32 @@ func ( g *GraphContainer) Init() {
 	}
 }
 
-func ( g *GraphContainer) Distance(a, b string) float64{
+func (g *GraphContainer) Distance(a, b string) float64 {
 	i := g.p[a]
 	j := g.p[b]
 
-	_, dist :=  graph.ShortestPath(g.g, i, j)
+	_, dist := graph.ShortestPath(g.g, i, j)
 	return float64(dist)
+}
+
+func (g *GraphContainer) Fields() []string {
+
+	var fields []string
+	file, err := os.Open("graph.txt")
+	if err != nil {
+		log.Fatal(err)
+	}
+	defer file.Close()
+
+	scanner := bufio.NewScanner(file)
+	for scanner.Scan() {
+		line := scanner.Text()
+		parts := strings.Split(line, " ")
+
+		if parts[0] == "node" {
+			fields = append(fields, parts[1])
+		}
+	}
+	return fields
+
 }

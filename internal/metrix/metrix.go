@@ -9,7 +9,7 @@ import (
 	"reflect"
 )
 
-func MakeVector(a, b models.Article) ([]float64, []float64){
+func MakeVector(a, b models.Article) ([]float64, []float64) {
 	var vectorA []float64
 	var vectorB []float64
 
@@ -23,17 +23,16 @@ func MakeVector(a, b models.Article) ([]float64, []float64){
 
 		switch typeField {
 		case "string":
-			/*if valueA.Interface().(string) == valueB.Interface().(string) {
+			if valueA.Interface().(string) == valueB.Interface().(string) {
 				vectorA = append(vectorA, 1)
 				vectorB = append(vectorB, 1)
-			}else {
+			} else {
 				vectorA = append(vectorA, 1)
 				vectorB = append(vectorB, -1)
 			}
 
-			 */
 		case "[]string":
-			/*
+
 			arrA := valueA.Interface().([]string)
 			arrB := valueB.Interface().([]string)
 			diff := 0.0
@@ -45,7 +44,6 @@ func MakeVector(a, b models.Article) ([]float64, []float64){
 			vectorA = append(vectorA, 0)
 			vectorB = append(vectorB, diff)
 
-			 */
 		case "bool":
 			if valueA.Interface().(bool) {
 				vectorA = append(vectorA, 1)
@@ -57,7 +55,7 @@ func MakeVector(a, b models.Article) ([]float64, []float64){
 			} else {
 				vectorB = append(vectorB, 0)
 			}
-		case "uint" :
+		case "uint":
 			vectorA = append(vectorA, float64(valueA.Interface().(uint)))
 			vectorB = append(vectorB, float64(valueB.Interface().(uint)))
 		case "float64":
@@ -76,7 +74,7 @@ func EuclideanDistance(objA, objB models.Article) float64 {
 	a, b := MakeVector(objA, objB)
 	diff := 0.0
 	for i := 0; i < len(a); i++ {
-		diff += math.Pow(a[i] - b[i], 2)
+		diff += math.Pow(a[i]-b[i], 2)
 	}
 	diff = math.Sqrt(diff)
 
@@ -84,7 +82,7 @@ func EuclideanDistance(objA, objB models.Article) float64 {
 }
 
 func CorrelationDistance(objA, objB models.Article) float64 {
- 	a, b := MakeVector(objA, objB)
+	a, b := MakeVector(objA, objB)
 	return stat.Correlation(a, b, nil)
 }
 

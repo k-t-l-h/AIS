@@ -2,18 +2,18 @@ package models
 
 type Article struct {
 	//номинальные признаки
-	Title string
-	Authors []string
-	Fields []string
+	Title   string   `json:"title"`
+	Authors []string `json:"authors"`
+	Fields  []string `json:"fields"`
 
 	//бинарные признаки
-	RINZ bool
-	WAK bool
-	WOS bool
+	RINZ bool `json:"rinz"`
+	WAK  bool `json:"wak"`
+	WOS  bool `json:"wos"`
 
 	//вещественные признаки
-	Year uint
-	Citations uint
-	Score float64
-	ReadingTime uint
+	Year        uint    `json:"year"`
+	Citations   uint    `json:"citations"`
+	Score       float64 `json:"score"`
+	ReadingTime uint    `json:"reading_time"`
 }
