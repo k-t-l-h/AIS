@@ -33,3 +33,12 @@ func Find(articles []models.Article, name string) (models.Article, error) {
 	}
 	return models.Article{}, errors.New("not found")
 }
+
+func FindUser(users []string, name string) (int, error) {
+	for i := 0; i < len(users); i++ {
+		if strings.ToLower(users[i]) == strings.ToLower(name) {
+			return i, nil
+		}
+	}
+	return -1, errors.New("not found")
+}
