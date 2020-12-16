@@ -30,5 +30,3 @@ func UserCorrelations(data [][]float64, ind int) []float64 {
 	}
 	return states
 }
-
-

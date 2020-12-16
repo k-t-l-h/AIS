@@ -68,7 +68,7 @@ func GenerateUserData() {
 	data[0][0] = "Статьи"
 	for i := 0; i < 100; i++ {
 		name := faker.Name()
-		data[0][i+1] =  name
+		data[0][i+1] = name
 	}
 
 	art := Load()

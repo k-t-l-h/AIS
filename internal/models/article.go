@@ -17,4 +17,3 @@ type Article struct {
 	Score       float64 `json:"score"`
 	ReadingTime uint    `json:"reading_time"`
 }
-

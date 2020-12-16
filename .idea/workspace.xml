@@ -22,9 +22,12 @@
     <list default="true" id="912c23ed-8fa6-4312-9f5b-0ab63717f6c8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmd/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/internal/data/find.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/data/find.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/collaborate/best.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/collaborate/best.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/collaborate/search.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/collaborate/search.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/internal/data/generate_data.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/data/generate_data.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/data/user_data.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/data/user_data.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/graphs/operations.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/graphs/operations.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/metrix/metrix.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/metrix/metrix.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/internal/models/article.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/models/article.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -147,22 +150,22 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="623" y="0" width="657" height="680" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1607971580679" />
-    <state width="1222" height="174" key="GridCell.Tab.0.bottom" timestamp="1608088074844">
+    <state width="1222" height="174" key="GridCell.Tab.0.bottom" timestamp="1608143330674">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1222" height="174" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1608088074844" />
-    <state width="1222" height="174" key="GridCell.Tab.0.center" timestamp="1608088074843">
+    <state width="1222" height="174" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1608143330674" />
+    <state width="1222" height="174" key="GridCell.Tab.0.center" timestamp="1608143330674">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1222" height="174" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1608088074843" />
-    <state width="1222" height="174" key="GridCell.Tab.0.left" timestamp="1608088074843">
+    <state width="1222" height="174" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1608143330674" />
+    <state width="1222" height="174" key="GridCell.Tab.0.left" timestamp="1608143330673">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1222" height="174" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1608088074843" />
-    <state width="1222" height="174" key="GridCell.Tab.0.right" timestamp="1608088074843">
+    <state width="1222" height="174" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1608143330673" />
+    <state width="1222" height="174" key="GridCell.Tab.0.right" timestamp="1608143330674">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1222" height="174" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1608088074843" />
+    <state width="1222" height="174" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1608143330674" />
     <state x="142" y="0" key="SettingsEditor" timestamp="1600894684804">
       <screen x="0" y="0" width="1280" height="680" />
     </state>

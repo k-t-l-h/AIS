@@ -7,7 +7,7 @@ import (
 	"strconv"
 )
 
-func LoadUserItem() ([]string, []string, [][]float64){
+func LoadUserItem() ([]string, []string, [][]float64) {
 	names := make([]string, 5)
 	users := make([]string, 100)
 	data := make([][]float64, 100)
@@ -25,7 +25,6 @@ func LoadUserItem() ([]string, []string, [][]float64){
 	ind := 0
 	for {
 
-
 		record, err = r.Read()
 		if err == io.EOF {
 			break
@@ -40,5 +39,5 @@ func LoadUserItem() ([]string, []string, [][]float64){
 		ind++
 	}
 
-	return names,users, data
+	return names, users, data
 }
