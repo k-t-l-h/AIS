@@ -1,15 +1,13 @@
-package collaborate
+package contentbase
 
 import (
+	"AIS/internal/metrix"
 	"AIS/internal/models"
-	"golang.org/x/exp/errors/fmt"
+	"fmt"
 	"sort"
 )
 
-
-func GetBest(number int, uindex int, all []models.Article, matrix [][]float64) {
-
-	corMatrix := UserCorrelations(matrix, uindex)
+func GetBest(number int, a models.Article, all []models.Article) {
 
 	var ac []models.ArticleCorrelation
 	for i := 0; i < len(all); i++ {
@@ -20,11 +18,7 @@ func GetBest(number int, uindex int, all []models.Article, matrix [][]float64) {
 	}
 
 	for i := 0; i < len(ac); i++ {
-		for j := 0; j < len(corMatrix); j++ {
-			if corMatrix[j] > 0 {
-				ac[i].State += matrix[i][j] * corMatrix[j]
-			}
-		}
+		ac[i].State = metrix.CorrelationDistance(a, ac[i].Article)
 	}
 
 	sort.Sort(models.ArticleCorrelations(ac))

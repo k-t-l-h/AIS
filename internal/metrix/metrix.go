@@ -36,9 +36,9 @@ func MakeVector(a, b models.Article) ([]float64, []float64) {
 			arrA := valueA.Interface().([]string)
 			arrB := valueB.Interface().([]string)
 			diff := 0.0
-			for i := 0; i < len(arrA); i++ {
+			for i := 0; i < len(arrA) && i < len(arrB); i++ {
 				if arrA[i] != arrB[i] {
-					diff += 2.0
+					diff += 5.0
 				}
 			}
 			vectorA = append(vectorA, 0)
