@@ -23,42 +23,46 @@
 * Время чтения - случайное число из диапазона \[5, 30)
 
 
-Список имено находится в файле names.json
+Список имено находится в файле names.json. 
 
 ### Пример работы
 
 ```
  Введите название статьи-эталона: 
- Sit consequatur accusantium voluptatem perferendis aut.
+ Consequatur perferendis sit aut accusantium voluptatem.
  ---------------------
  Введите название второй статьи: 
- Voluptatem accusantium consequatur sit aut perferendis.
+ Voluptatem accusantium aut perferendis consequatur sit.
  ---------------------
- Статья А: {Title:Sit consequatur accusantium voluptatem perferendis aut. 
-            Authors:[Princess Althea Kessler Ms. Estel Hane] 
-            Fields:[series] 
-            RINZ:true 
-            WAK:false 
-            WOS:false 
-            Year:1990 
-            Citations:1 
-            Score:0.7436350178287354 
-            ReadingTime:20} 
+ Статья А: {
+        Title:Consequatur perferendis sit aut accusantium voluptatem. 
+        Authors:[Prof. Aglae Friesen Queen Guadalupe Morissette Ms. Jazlyn Kulas] 
+        Fields:[complex_manifold] 
+        RINZ:true 
+        WAK:false 
+        WOS:false 
+        Year:2011 
+        Citations:3 
+        Score:0.4409283900936391 
+        ReadingTime:21
+        } 
 
- Статья B: {Title:Voluptatem accusantium consequatur sit aut perferendis. 
-            Authors:[Princess Bulah Mills Dr. Shayna Stiedemann] 
-            Fields:[multiplication] 
-            RINZ:true 
-            WAK:false 
-            WOS:false 
-            Year:2011 
-            Citations:12 
-            Score:0.26547149784194785 
-            ReadingTime:6} 
+ Статья B: {
+        Title:Voluptatem accusantium aut perferendis consequatur sit. 
+        Authors:[Prof. Aglae Friesen Mrs. Elna Schaden Miss Bernita Feeney] 
+        Fields:[complex_manifold] 
+        RINZ:true 
+        WAK:false 
+        WOS:false 
+        Year:1974 
+        Citations:36 
+        Score:0.5354199838094965 
+        ReadingTime:18
+        } 
 
  Значения метрик: 
- Евклидово расстояние:  27.96835069059036
- Корреляция:  0.9999522090779444
- Расстояние по графу:  8
- Количество различий:  7
+ Евклидово расстояние:  4.582807945057589
+ Корреляция:  0.6176683984397627
+ Расстояние по графу:  0
+ Количество различий:  6
 ```
