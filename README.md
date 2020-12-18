@@ -55,16 +55,14 @@
  Consequatur accusantium voluptatem aut sit perferendis.
 
  Наиболее подходящие вам статьи: 
-
- Счёт: 16.543825 Cтатья: Accusantium perferendis aut voluptatem consequatur sit. 
- 
- Счёт: 16.380281 Cтатья: Sit voluptatem perferendis aut consequatur accusantium. 
- 
- Счёт: 16.055162 Cтатья: Sit consequatur accusantium voluptatem perferendis aut. 
- 
- Счёт: 16.000556 Cтатья: Voluptatem aut consequatur perferendis accusantium sit. 
- 
- Счёт: 15.324673 Cтатья: Perferendis sit aut consequatur accusantium voluptatem. 
- 
- Счёт: 15.190236 Cтатья: Voluptatem sit accusantium aut perferendis consequatur. 
+   Счёт: 0.280130 Cтатья: Perferendis sit accusantium voluptatem aut consequatur. 
+   
+   Счёт: 0.279621 Cтатья: Voluptatem sit aut accusantium consequatur perferendis. 
+   
+   Счёт: 0.265004 Cтатья: Consequatur sit accusantium aut perferendis voluptatem. 
+   
+   Счёт: 0.263912 Cтатья: Perferendis consequatur sit aut voluptatem accusantium. 
+   
+   Счёт: 0.254610 Cтатья: Accusantium perferendis sit consequatur voluptatem aut. 
+   
 ```
