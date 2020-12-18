@@ -7,6 +7,7 @@ import (
 )
 
 type ArticleCorrelation struct {
+	Index   int
 	State   float64
 	Article models.Article
 }
@@ -24,6 +25,7 @@ func GetBest(number int, uindex int, all []models.Article, matrix [][]float64) {
 	var ac []ArticleCorrelation
 	for i := 0; i < len(all); i++ {
 		ac = append(ac, ArticleCorrelation{
+			Index:   i,
 			State:   0,
 			Article: all[i],
 		})
@@ -31,16 +33,20 @@ func GetBest(number int, uindex int, all []models.Article, matrix [][]float64) {
 
 	for i := 0; i < len(ac); i++ {
 		for j := 0; j < len(corMatrix); j++ {
-			if corMatrix[j] > 0 {
+			if corMatrix[j] > 0 && matrix[i][j] > 0 {
 				ac[i].State += matrix[i][j] * corMatrix[j]
 			}
 		}
 	}
 
 	sort.Sort(ArticleCorrelations(ac))
-	fmt.Printf("Наиболее подходящие вам статьи: ")
-	for i := 1; i <= number; i++ {
-		fmt.Printf("%+v \n\n", ac[i].Article)
+	fmt.Printf("Наиболее подходящие вам статьи: \n")
+	k := 0
+	for i := 0; k <= number || i < len(ac); i++ {
+		if matrix[ac[i].Index][uindex] == 0 {
+			k++
+			fmt.Printf("Счёт: %f Cтатья: %s \n\n", ac[i].State, ac[i].Article.Title)
+		}
 	}
 
 }
