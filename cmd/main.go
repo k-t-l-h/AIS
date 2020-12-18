@@ -37,7 +37,7 @@ func main() {
 		os.Exit(2)
 	}
 
-	fmt.Printf("Статья А: %+v \n\n", a)
+	fmt.Printf("Статья: %+v \n\n", a)
 	collaborate.GetBest(5, userIndex, articles, matrix)
 
 }
