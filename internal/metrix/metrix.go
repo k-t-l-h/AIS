@@ -38,26 +38,33 @@ func MakeVector(a, b models.Article) ([]float64, []float64) {
 			diff := 0.0
 			for i := 0; i < len(arrA) && i < len(arrB); i++ {
 				if arrA[i] != arrB[i] {
-					diff += 5.0
+					diff += 1.0
 				}
 			}
-			vectorA = append(vectorA, 0)
-			vectorB = append(vectorB, diff)
+			vectorA = append(vectorA, diff)
+			vectorB = append(vectorB, -diff)
 
 		case "bool":
-			if valueA.Interface().(bool) {
+			if valueA.Interface().(bool) == valueB.Interface().(bool) {
 				vectorA = append(vectorA, 1)
-			} else {
-				vectorA = append(vectorA, 0)
-			}
-			if valueB.Interface().(bool) {
 				vectorB = append(vectorB, 1)
 			} else {
-				vectorB = append(vectorB, 0)
+				vectorA = append(vectorA, 1)
+				vectorB = append(vectorB, -1)
 			}
 		case "uint":
-			vectorA = append(vectorA, float64(valueA.Interface().(uint)))
-			vectorB = append(vectorB, float64(valueB.Interface().(uint)))
+			switch valA.Type().Field(i).Name {
+			case "Year":
+				vectorA = append(vectorA, float64(valueA.Interface().(uint)-1970)/50)
+				vectorB = append(vectorB, float64(valueB.Interface().(uint)-1970)/50)
+			case "Citations":
+				vectorA = append(vectorA, float64(valueA.Interface().(uint))/50)
+				vectorB = append(vectorB, float64(valueB.Interface().(uint))/50)
+			case "ReadingTime":
+				vectorA = append(vectorA, float64(valueA.Interface().(uint)+5)/30)
+				vectorB = append(vectorB, float64(valueB.Interface().(uint)+5)/30)
+			}
+
 		case "float64":
 			vectorA = append(vectorA, valueA.Interface().(float64))
 			vectorB = append(vectorB, valueB.Interface().(float64))
@@ -83,7 +90,7 @@ func EuclideanDistance(objA, objB models.Article) float64 {
 
 func CorrelationDistance(objA, objB models.Article) float64 {
 	a, b := MakeVector(objA, objB)
-	return stat.Correlation(a, b, nil)
+	return stat.Correlation(a, b, CorrelationWeight())
 }
 
 func GraphDistance(objA, objB models.Article) float64 {
@@ -113,4 +120,12 @@ func DiffDistance(objA, objB models.Article) float64 {
 	}
 
 	return diff
+}
+
+func CorrelationWeight() []float64 {
+	//небольшой комментарий
+	//наибольший вес у области и оценки
+	//наименьшее влияние у года и количества цитат (и названия)
+	weight := []float64{0, 0.02, 2, 0.1, 0.1, 0.1, 0.01, 0.01, 1, 0.01}
+	return weight
 }

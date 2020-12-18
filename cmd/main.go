@@ -12,7 +12,7 @@ import (
 func main() {
 
 	//data.GenerateUserData()
-	_, users, _ := data.LoadUserItem()
+	_, users, matrix := data.LoadUserItem()
 
 	reader := bufio.NewReader(os.Stdin)
 	fmt.Println("Введите как вас зовут: ")
@@ -37,7 +37,7 @@ func main() {
 		os.Exit(2)
 	}
 
-	fmt.Printf("Статья А: %+v \n\n", a)
-	contentbase.GetBest(5, a, articles)
-
+	fmt.Printf("Статья: %+v \n\n", a)
+	index, _ := data.FindArticles(articles, A)
+	contentbase.GetBest(5, index, articles, matrix)
 }

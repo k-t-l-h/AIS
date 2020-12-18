@@ -3,8 +3,8 @@ package models
 type Article struct {
 	//номинальные признаки
 	Title   string   `json:"title"`
-	Authors string `json:"authors"`
-	Fields  string `json:"fields"`
+	Authors []string `json:"authors"`
+	Fields  []string `json:"fields"`
 
 	//бинарные признаки
 	RINZ bool `json:"rinz"`
@@ -19,6 +19,7 @@ type Article struct {
 }
 
 type ArticleCorrelation struct {
+	Index   int
 	State   float64
 	Article Article
 }

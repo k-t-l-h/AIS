@@ -23,6 +23,7 @@
 * Время чтения - случайное число из диапазона \[5, 30)
 
 
+
 Список имен находится в файле names.json
 
 Для коллаборативной фильтрации сгенерирована матрица оценок пользователями статьей.
@@ -41,82 +42,36 @@
 * Определяются оценки статей, для этого суммируются оценки отобранных пользователей, предварительно помноженные 
 на значение их корреляции с текущим пользователем
 
+Список имено находится в файле names.json. 
+
+
+### Описание алгоритма контент-ориентированной фильтрации 
+
+* Определяется текущая статья 
+* Определяется корреляция оценок статей с оценками текущей статьи
+* Отсекаются статьи с отрицательной оценкой корреляции оценок
+* Для каждого пользователя определяется средняя оценка статей
+* Определяются оценки статей, для этого создается вектор оценок статьи с учетом вычета для каждого пользователя его 
+средней оценки
+* Выводятся лучшие совпадения (сама статья не показывается)
+
 ### Пример работы
 
 ```
  Введите как вас зовут: 
  Lady Anya Dickinson
-
  Привет, Lady Anya Dickinson!
  Введите название статьи: 
- Consequatur accusantium voluptatem aut sit perferendis.
+ Perferendis sit voluptatem aut accusantium consequatur.
 
- Статья: 
-    {Title:Consequatur accusantium voluptatem aut sit perferendis. 
-    Authors:[Dr. Estel Jacobi Queen Marlee Wuckert] 
-    Fields:[route_problems] 
-    RINZ:true 
-    WAK:false 
-    WOS:false 
-    Year:1980 
-    Citations:30 
-    Score:0.5934263023272138 
-    ReadingTime:23} 
-     
-Наиболее подходящие вам статьи: 
-    
-    {Title:Perferendis voluptatem accusantium sit consequatur aut. 
-    Authors:[Princess Gisselle Hammes Prof. Aurelia Wiza Miss Celine Towne] 
-    Fields:[homotopy_groups] 
-    RINZ:true 
-    WAK:false 
-    WOS:false 
-    Year:2018 
-    Citations:28 
-    Score:0.8152128777352514 
-    ReadingTime:10} 
-     
-    {Title:Voluptatem perferendis sit accusantium consequatur aut. 
-    Authors:[Ms. Maeve Anderson] 
-    Fields:[subsets] 
-    RINZ:false 
-    WAK:true 
-    WOS:false 
-    Year:1978 
-    Citations:16 
-    Score:0.024728093691463882 
-    ReadingTime:8} 
-     
-    {Title:Sit aut voluptatem accusantium perferendis consequatur. 
-    Authors:[Princess Claudie Torp Queen Eve Halvorson] 
-    Fields:[small_stellated_dodecahedron] 
-    RINZ:false 
-    WAK:true 
-    WOS:false 
-    Year:1989 
-    Citations:34 
-    Score:0.7454155482508904 
-    ReadingTime:10} 
-     
-    {Title:Consequatur accusantium voluptatem aut perferendis sit. 
-    Authors:[Princess Daphne Nader] 
-    Fields:[mathematical_physics] 
-    RINZ:false 
-    WAK:false 
-    WOS:true 
-    Year:1985 
-    Citations:6 
-    Score:0.7748192532007393 
-    ReadingTime:26} 
-     
-    {Title:Accusantium perferendis aut voluptatem consequatur sit. 
-    Authors:[Dr. Winnifred Goldner Ms. Grace Cummings Ms. Beryl Heathcote] 
-    Fields:[algebraic_fractals] 
-    RINZ:false 
-    WAK:false 
-    WOS:true 
-    Year:2001 
-    Citations:5 
-    Score:0.9642233503677278 
-    ReadingTime:22} 
+ Наиболее подходящие вам статьи: 
+ Счёт: 0.220642 Cтатья: Perferendis accusantium voluptatem consequatur sit aut. 
+ 
+ Счёт: 0.191282 Cтатья: Sit perferendis voluptatem accusantium aut consequatur. 
+ 
+ Счёт: 0.179730 Cтатья: Consequatur perferendis sit aut accusantium voluptatem. 
+ 
+ Счёт: 0.175934 Cтатья: Aut consequatur voluptatem perferendis sit accusantium. 
+ 
+ Счёт: 0.152655 Cтатья: Sit consequatur accusantium voluptatem perferendis aut. 
 ```

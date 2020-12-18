@@ -4,8 +4,10 @@ import (
 	"AIS/internal/graphs"
 	"AIS/internal/models"
 	"encoding/csv"
+	"encoding/json"
 	"fmt"
 	"github.com/bxcodec/faker"
+	"io/ioutil"
 	"math/rand"
 	"os"
 )
@@ -31,19 +33,26 @@ func Generate() {
 			obj.WOS = true
 		}
 		obj.Title = faker.Sentence()
-		obj.Authors = faker.Name()
+		obj.Authors = make([]string, rand.Intn(3)+1)
+		for i := 0; i < len(obj.Authors); i++ {
+			obj.Authors[i] = faker.Name()
+		}
 
-
-		obj.Fields = fields[rand.Intn(len(fields))]
+		obj.Fields = make([]string, 1)
+		obj.Fields[0] = fields[rand.Intn(len(fields))]
 		obj.Citations = uint(rand.Intn(41))
 		obj.ReadingTime = uint(rand.Intn(25) + 5)
 		objs[i] = obj
 		names[i] = obj.Title
-		fmt.Printf("('%v', '%v', '%v', %v, %v, %v, %v, %v, %v, %v),", obj.Title, obj.Authors, obj.Fields,
-			obj.RINZ, obj.WAK, obj.WOS, obj.Year, obj.Citations, obj.Score, obj.ReadingTime)
 	}
 
+	file, _ := json.MarshalIndent(objs, "", "")
 
+	_ = ioutil.WriteFile("data.json", file, 0644)
+
+	name, _ := json.MarshalIndent(names, "", "")
+
+	_ = ioutil.WriteFile("names.json", name, 0644)
 }
 
 func GenerateUserData() {

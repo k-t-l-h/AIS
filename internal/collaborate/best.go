@@ -25,8 +25,23 @@ func UserCorrelations(data [][]float64, ind int) []float64 {
 
 	ref := dataT[ind]
 	for i := 0; i < len(dataT); i++ {
-		states = append(states, stat.Correlation(ref, dataT[i], nil))
+		a, b := findUnion(ref, dataT[i])
+		states = append(states, stat.Correlation(a, b, nil))
 
 	}
 	return states
+}
+
+func findUnion(ref, data []float64) ([]float64, []float64) {
+
+	var stateRef []float64
+	var stateData []float64
+
+	for i := 0; i < len(ref); i++ {
+		if ref[i] != 0 && data[i] != 0 {
+			stateRef = append(stateRef, ref[i])
+			stateData = append(stateData, data[i])
+		}
+	}
+	return stateRef, stateData
 }
