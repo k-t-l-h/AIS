@@ -54,31 +54,35 @@ func expandField(a, b models.Article) (models.Article, models.Article){
 }
 
 func expandRinz(a, b models.Article) (models.Article, models.Article){
-	a.RINZ = false
+	a.RINZ = true
 	b.RINZ = true
 	return a, b
 }
 
 func expandWos(a, b models.Article)(models.Article, models.Article) {
-	a.WOS = false
+	a.WOS = true
 	b.WOS = true
 	return a, b
 }
 
 func expandWak(a, b models.Article) (models.Article, models.Article){
-	a.WAK = false
+	a.WAK = true
 	b.WAK = true
 	return a, b
 }
 
 func expandYear(a, b models.Article)(models.Article, models.Article) {
-	a.Year -= 1
+	if a.Year != 0 {
+		a.Year -= 1
+	}
 	b.Year += 1
 	return a, b
 }
 
 func expandCitations(a, b models.Article) (models.Article, models.Article){
-	a.Citations -= 1
+	if a.Citations != 0 {
+		a.Citations -= 1
+	}
 	b.Citations += 1
 	return a, b
 }
@@ -90,7 +94,9 @@ func expandScore(a, b models.Article) (models.Article, models.Article){
 }
 
 func expandReadingTime(a, b models.Article)(models.Article, models.Article) {
-	a.ReadingTime -= 1
+	if a.ReadingTime != 0 {
+		a.ReadingTime -= 1
+	}
 	b.ReadingTime += 1
 	return a, b
 }

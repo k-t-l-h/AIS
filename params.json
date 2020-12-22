@@ -3,12 +3,12 @@
   "authors": [
   ],
   "fields": [
-    ""
+    "complex_manifold"
   ],
-  "rinz": false,
-  "wak": false,
-  "wos": false,
-  "year": 1970,
+  "rinz": true,
+  "wak": true,
+  "wos": true,
+  "year": 2000,
   "citations": 0,
   "score": 0,
   "reading_time": 0
@@ -18,14 +18,14 @@
     "authors": [
     ],
     "fields": [
-      ""
+      "complex_manifold"
     ],
-    "rinz": false,
-    "wak": false,
-    "wos": false,
-    "year": 1970,
-    "citations": 0,
-    "score": 0,
-    "reading_time": 0
+    "rinz": true,
+    "wak": true,
+    "wos": true,
+    "year": 2008,
+    "citations": 2,
+    "score": 1,
+    "reading_time": 30
   }
 ]

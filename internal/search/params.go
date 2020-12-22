@@ -5,23 +5,37 @@ import (
 	"AIS/internal/metrix"
 	"AIS/internal/models"
 	"errors"
+	"fmt"
 	"github.com/gonum/stat"
-	"log"
 	"sort"
 )
 
 
-func Search(strict []bool, a, b models.Article)  {
+func Search(strict []bool, a, b models.Article) {
 	_a, _b := a, b
 	res := Between(a, b)
 
 	v := 0
-	for len(res) != 0 || v < 5 {
-		v++
-		a, b = Expand(strict, a, b)
-		res = Between(a, b)
-	}
+	if len(res) == 0 {
 
+		for ; v < 5 ; v++ {
+			a, b = Expand(strict, a, b)
+			res = Between(a, b)
+
+			if len(res) > 0 {
+				break
+			}
+		}
+	}
+	if len(res) == 0 {
+		fmt.Printf("Рекомендации найти не удалось \n")
+		return
+	}
+	if v == 0 {
+		fmt.Printf("Рекомендации найдены за первую итерацию \n")
+	} else {
+		fmt.Printf("Рекомендации найдены за %d итераций \n", v)
+	}
 
 	for i := 0; i < len(res); i++ {
 		a, sa := metrix.MakeVector(_a, res[i].Article)
@@ -34,7 +48,7 @@ func Search(strict []bool, a, b models.Article)  {
 	sort.Sort(models.ArticleCorrelations(res))
 
 	for i := 0; i < len(res); i++ {
-		log.Printf("%+v\n", res[i].Article)
+		fmt.Printf("%+v\n", res[i].Article)
 	}
 }
 
@@ -66,6 +80,7 @@ func isLess(a, b models.Article)  (bool, error){
 		for j := 0; j < len(b.Fields); j++ {
 			if a.Fields[i] == b.Fields[j]{
 				flag = true
+				//log.Print(a.Fields[i])
 			}
 		}
 	}

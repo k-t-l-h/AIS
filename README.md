@@ -91,21 +91,27 @@
 
 ### Пример работы
 
-```
- Введите как вас зовут: 
- Lady Anya Dickinson
- Привет, Lady Anya Dickinson!
- Введите название статьи: 
- Perferendis sit voluptatem aut accusantium consequatur.
+В примере работы искались статьи, соответствующие следующим критериям:
+* тема исследования: "complex_manifold"
+* статьи входят в РИНЦ
+* год статьи от 1970 до 2021
+* количество цитат, время чтения и оценка - любые
 
- Наиболее подходящие вам статьи: 
- Счёт: 0.220642 Cтатья: Perferendis accusantium voluptatem consequatur sit aut. 
- 
- Счёт: 0.191282 Cтатья: Sit perferendis voluptatem accusantium aut consequatur. 
- 
- Счёт: 0.179730 Cтатья: Consequatur perferendis sit aut accusantium voluptatem. 
- 
- Счёт: 0.175934 Cтатья: Aut consequatur voluptatem perferendis sit accusantium. 
- 
- Счёт: 0.152655 Cтатья: Sit consequatur accusantium voluptatem perferendis aut. 
+```
+Рекомендации найдены за первую итерацию 
+{Title:Consequatur perferendis sit aut accusantium voluptatem. Authors:[Prof. Aglae Friesen Queen Guadalupe Morissette Ms. Jazlyn Kulas] Fields:[complex_manifold] RINZ:true WAK:false WOS:false Year:2011 Citations:3 Score:0.4409283900936391 ReadingTime:21}
+{Title:Voluptatem accusantium aut perferendis consequatur sit. Authors:[Prof. Aglae Friesen Mrs. Elna Schaden Miss Bernita Feeney] Fields:[complex_manifold] RINZ:true WAK:false WOS:false Year:1974 Citations:36 Score:0.5354199838094965 ReadingTime:18}
+```
+
+Во втором примере искались статьи, соответствующие следующим критериям:
+* тема исследования: "complex_manifold"
+* статьи входят в WOS
+* год статьи от 2000 до 2008
+* количество цитат от 0 до 2
+* менять область исследования не разрешалось
+
+```
+Рекомендации найдены за 2 итераций 
+
+{Title:Consequatur perferendis sit aut accusantium voluptatem. Authors:[Prof. Aglae Friesen Queen Guadalupe Morissette Ms. Jazlyn Kulas] Fields:[complex_manifold] RINZ:true WAK:false WOS:false Year:2011 Citations:3 Score:0.4409283900936391 ReadingTime:21}
 ```
