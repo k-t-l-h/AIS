@@ -110,8 +110,18 @@
 * количество цитат от 0 до 2
 * менять область исследования не разрешалось
 
-```
 Рекомендации найдены за 2 итераций 
 
 {Title:Consequatur perferendis sit aut accusantium voluptatem. Authors:[Prof. Aglae Friesen Queen Guadalupe Morissette Ms. Jazlyn Kulas] Fields:[complex_manifold] RINZ:true WAK:false WOS:false Year:2011 Citations:3 Score:0.4409283900936391 ReadingTime:21}
-```
+
+ Наиболее подходящие вам статьи: 
+   Счёт: 0.280130 Cтатья: Perferendis sit accusantium voluptatem aut consequatur. 
+   
+   Счёт: 0.279621 Cтатья: Voluptatem sit aut accusantium consequatur perferendis. 
+   
+   Счёт: 0.265004 Cтатья: Consequatur sit accusantium aut perferendis voluptatem. 
+   
+   Счёт: 0.263912 Cтатья: Perferendis consequatur sit aut voluptatem accusantium. 
+   
+   Счёт: 0.254610 Cтатья: Accusantium perferendis sit consequatur voluptatem aut. 
+   
