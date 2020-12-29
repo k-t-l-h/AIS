@@ -17,3 +17,15 @@ type Article struct {
 	Score       float64 `json:"score"`
 	ReadingTime uint    `json:"reading_time"`
 }
+
+type ArticleCorrelation struct {
+	Index   int
+	State   float64
+	Article Article
+}
+
+type ArticleCorrelations []ArticleCorrelation
+
+func (a ArticleCorrelations) Len() int           { return len(a) }
+func (a ArticleCorrelations) Less(i, j int) bool { return a[i].State > a[j].State }
+func (a ArticleCorrelations) Swap(i, j int)      { a[i], a[j] = a[j], a[i] }

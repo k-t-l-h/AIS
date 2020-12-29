@@ -1,0 +1,31 @@
+[{
+  "title": "",
+  "authors": [
+  ],
+  "fields": [
+    "complex_manifold"
+  ],
+  "rinz": true,
+  "wak": true,
+  "wos": true,
+  "year": 2000,
+  "citations": 0,
+  "score": 0,
+  "reading_time": 0
+},
+  {
+    "title": "",
+    "authors": [
+    ],
+    "fields": [
+      "complex_manifold"
+    ],
+    "rinz": true,
+    "wak": true,
+    "wos": true,
+    "year": 2008,
+    "citations": 2,
+    "score": 1,
+    "reading_time": 30
+  }
+]
