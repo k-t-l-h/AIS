@@ -3,10 +3,13 @@ package data
 import (
 	"AIS/internal/graphs"
 	"AIS/internal/models"
+	"encoding/csv"
 	"encoding/json"
+	"fmt"
 	"github.com/bxcodec/faker"
 	"io/ioutil"
 	"math/rand"
+	"os"
 )
 
 func Generate() {
@@ -50,4 +53,35 @@ func Generate() {
 	name, _ := json.MarshalIndent(names, "", "")
 
 	_ = ioutil.WriteFile("names.json", name, 0644)
+}
+
+func GenerateUserData() {
+	file, _ := os.Create("users.csv")
+	defer file.Close()
+
+	writer := csv.NewWriter(file)
+	defer writer.Flush()
+
+	var data [][]string
+	data = make([][]string, 101)
+	data[0] = make([]string, 101)
+	data[0][0] = "Статьи"
+	for i := 0; i < 100; i++ {
+		name := faker.Name()
+		data[0][i+1] = name
+	}
+
+	art := Load()
+	for i := 0; i < 100; i++ {
+		data[i+1] = make([]string, 101)
+		data[i+1][0] = art[i].Title
+		for j := 0; j < 100; j++ {
+			data[i+1][j+1] = fmt.Sprintf("%d", rand.Intn(5))
+		}
+	}
+
+	for _, value := range data {
+		writer.Write(value)
+	}
+
 }

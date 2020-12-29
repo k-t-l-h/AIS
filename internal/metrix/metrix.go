@@ -45,7 +45,7 @@ func MakeVector(a, b models.Article) ([]float64, []float64) {
 			vectorB = append(vectorB, -diff)
 
 		case "bool":
-			if valueA.Interface().(bool)  == valueB.Interface().(bool){
+			if valueA.Interface().(bool) == valueB.Interface().(bool) {
 				vectorA = append(vectorA, 1)
 				vectorB = append(vectorB, 1)
 			} else {
@@ -55,14 +55,14 @@ func MakeVector(a, b models.Article) ([]float64, []float64) {
 		case "uint":
 			switch valA.Type().Field(i).Name {
 			case "Year":
-				vectorA = append(vectorA, float64(valueA.Interface().(uint) - 1970)/50)
-				vectorB = append(vectorB, float64(valueB.Interface().(uint) - 1970)/50)
+				vectorA = append(vectorA, float64(valueA.Interface().(uint)-1970)/50)
+				vectorB = append(vectorB, float64(valueB.Interface().(uint)-1970)/50)
 			case "Citations":
 				vectorA = append(vectorA, float64(valueA.Interface().(uint))/50)
 				vectorB = append(vectorB, float64(valueB.Interface().(uint))/50)
 			case "ReadingTime":
-				vectorA = append(vectorA, float64(valueA.Interface().(uint) + 5)/30)
-				vectorB = append(vectorB, float64(valueB.Interface().(uint) + 5)/30)
+				vectorA = append(vectorA, float64(valueA.Interface().(uint)+5)/30)
+				vectorB = append(vectorB, float64(valueB.Interface().(uint)+5)/30)
 			}
 
 		case "float64":
@@ -122,7 +122,7 @@ func DiffDistance(objA, objB models.Article) float64 {
 	return diff
 }
 
-func CorrelationWeight()[]float64 {
+func CorrelationWeight() []float64 {
 	//небольшой комментарий
 	//наибольший вес у области и оценки
 	//наименьшее влияние у года и количества цитат (и названия)

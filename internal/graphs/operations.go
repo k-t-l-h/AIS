@@ -80,3 +80,34 @@ func (g *GraphContainer) Fields() []string {
 	return fields
 
 }
+
+func (g *GraphContainer) GetNearest(name string) []string {
+	var fields []int
+
+	j := g.p[name]
+	fields = append(fields, j)
+	for i := 0; i < len(g.p); i++ {
+		if g.g.Edge(j, i) || g.g.Edge(i, j){
+			fields = append(fields, i)
+		}
+	}
+
+	var names []string
+	i := 0
+	for  {
+		for v, k := range g.p {
+			if k == fields[i] {
+				i++
+				names = append(names, v)
+			}
+			if i == len(fields) {
+				break
+			}
+		}
+		if i == len(fields) {
+			break
+		}
+	}
+	return names
+	
+}
